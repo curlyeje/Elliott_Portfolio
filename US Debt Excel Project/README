@@ -1,1 +1,24 @@
-The US Debt Tracker project was completed using Microsoft Excel. The data first had go through the cleaning phase which consisted of transposing the data
+The US Debt Tracker project was completed using Microsoft Excel. 
+
+The data first had go through the cleaning phase which consisted of:
+
+-- Transposing The Data so that the columns and rows lined up. 
+-- The numbers were in scientific notations, so changed it to numbers to help it make sense with respect to each column. 
+
+Once the data was cleaned, then I moved on to: 
+
+-- Looking at the Yearly Percentage Change, Monthly Historicals by creating a pivot table, and the projected growth using the 
+forecast function. 
+
+The Final Outputs shows us: 
+
+-- The average increase was around 5% in the previous years of 2016-2019. 
+-- There was a large spike that was most likely caused by the COVID-19 Pandemic responses in the USA. 
+-- Highest debt increases were during the months of January, February, November, and December. 
+-- Lowest debt increases were during the months of April, May, June, and July. 
+-- Publicly held debt is projected to increase at a stady rate. 
+
+Please see xlsx file to get further details on summary/conclusions. 
+
+
+
