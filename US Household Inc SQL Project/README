@@ -1,1 +1,20 @@
+This project was completed usting MYSQL Workbench. 
 
+Data Cleaning Steps: 
+
+-- Removed Duplicates by using the window function ROW_NUMBER() OVER(PARTITION BY) in order to partition on the duplicate ID's 
+which were the primary key in order to identify the duplicates in this dataset. 
+-- Removed any unnecessary duplicates
+
+
+Standardizing Data: 
+
+-- Noticed that the State_Name column had some grammatical and capitalization errors. Used the UPDATE clause. 
+-- Checked for blank values and updated it with the correct correct county and city. 
+-- Worked on the Type column in order to identify possible types that are the same. 
+-- Check for Awater and ALand columns to identify if it was 0 or NULL values. 
+
+
+Exploratory Data Analysis: 
+
+-- 
