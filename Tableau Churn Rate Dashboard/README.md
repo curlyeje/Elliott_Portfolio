@@ -2,7 +2,7 @@ Please see link below to access the Churn Rate Dashboard:
 
 
 
-The Churn Rate Dashboard Project was completed using Tableau. The project consisted of a telemarking company in which the manager wanted to gain further insights on the churn rates happening at the company. Here are the following steps I took to solve this problem:
+The Churn Rate Dashboard Project was completed using Tableau. The project consisted of a telemarking company in which the manager wanted to gain further insights on why there are so many churn rates happening at the company. Here are the following steps I took to solve this problem:
 
  Data Cleaning Steps: 
 
@@ -10,4 +10,4 @@ The Churn Rate Dashboard Project was completed using Tableau. The project consis
 
 Exploratory Data Analysis: 
 
--- Tenure Churn Count (Sheet 1) was created to help the manager understand how many people said Yes vs No with churning away from the company. The Total Vs Monthly 
+-- Tenure Churn Count (Sheet 1) was created to help the manager understand how many people said Yes vs No with churning away from the company. The Total Vs Monthly Charges helps the manager know the key differences between the Total Vs Monthly Charges in which the Churn Rate increased significantly for new users when the monthly charges were high. As customers stayed with the company longer, they were less likely to churn as prices increased. The Contract Typ Churn (Sheet 3) displays how a lot of the customers were churning from month-to month. Payment Method Churn (Sheet 4) shows us how customer preferences on payment method which Electronic checks were the highest. A dashboard was then built to show the manager my findings and reccommendations. 
