@@ -1,6 +1,6 @@
 Please see link below to access the Churn Rate Dashboard: 
 
-
+https://public.tableau.com/views/ChurnRateDashboard_17448344122710/ChurnRateDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
 The Churn Rate Dashboard Project was completed using Tableau. The project consisted of a telemarking company in which the manager wanted to gain further insights on why there are so many churn rates happening at the company. Here are the following steps I took to solve this problem:
 
