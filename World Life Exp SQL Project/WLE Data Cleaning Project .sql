@@ -27,7 +27,7 @@ FROM (
 	FROM worldlifeexpectancy) AS Row_table
     WHERE Row_Num > 1
 ;
-Screenshot 2025-05-31 at 12.18.17 PM
+
 
 -- Now that we have identified the 3 duplicates, will use DELETE FROM to remove duplicates.
 
