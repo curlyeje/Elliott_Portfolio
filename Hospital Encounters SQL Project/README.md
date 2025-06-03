@@ -111,6 +111,8 @@ GROUP BY patient_type;
 -- 5. What are the top 3 leading demographic category values? 
 -- All Discharges (including other diagnosis not listed), Female, and Male are the most in the Inpatient hospitalization discharges or ED visits 
 
+Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/801a85bc5d3a9c3a6b35805e45eccf557b86f8cc/Hospital%20Encounters%20SQL%20Project/Question%20%23%205%20Answer.png
+
 SELECT demographic_category_value, SUM(count) as demographic_count
 FROM hospital_encounters_for_behavioral_health_cleaned
 GROUP BY demographic_category_value
