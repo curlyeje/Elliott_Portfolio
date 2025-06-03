@@ -55,6 +55,8 @@ SET percent = ROUND(percent, 2);
 
 -- Will check to make sure UPDATE worked correctly. It worked. 
 
+https://github.com/curlyeje/Elliott_Portfolio/blob/76632457edcdb81d6871cf0c07be2515c4fc5e9a/Hospital%20Encounters%20SQL%20Project/UPDATE%20screenshot.png
+
 SELECT *
 FROM hospital_encounters_for_behavioral_health_cleaned;
 
