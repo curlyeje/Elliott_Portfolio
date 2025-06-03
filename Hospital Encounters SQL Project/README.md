@@ -73,6 +73,8 @@ FROM hospital_encounters_for_behavioral_health_cleaned
 GROUP BY year
 ORDER BY year ASC;
 
+https://github.com/curlyeje/Elliott_Portfolio/blob/3068d39e5463b4e99f0a4652f84c77eb4760c4e2/Hospital%20Encounters%20SQL%20Project/Question%20%23%201%20Answer.png
+
 -- 2. Which year had the highest number of behavioral health-related hospital encounters? 
 
 -- The year 2022 had the highest number of behavioral health-related hosptial encounters with a total of 317,653,552
