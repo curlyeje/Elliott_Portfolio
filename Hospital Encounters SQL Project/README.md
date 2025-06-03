@@ -43,6 +43,8 @@ CHANGE `Total` total INT;
 ALTER TABLE hospital_encounters_for_behavioral_health_cleaned
 CHANGE `Percent` percent DOUBLE;
 
+Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/c77845817a9b45b490ba565e491639815fe37540/Hospital%20Encounters%20SQL%20Project/Hosptial_Encounters%20Table%20.png
+
 -- Will use the ROUND function to change percent column to nearest 2 decimal places
 
 SELECT *, ROUND(percent, 2) as percentages
