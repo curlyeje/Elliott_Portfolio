@@ -99,7 +99,9 @@ WHERE diagnosis_group = 'Substance Use Disorders' ;
 
 -- 4. Which patient type (inpatient vs. emergency) shows higher behavioral health service usage? 
 
--- Inpatient vs. emegency visits shows there being the same number at 216 totaling up to 432 rows. 
+-- Inpatient vs. emegency visits shows there being the same number at 216 totaling up to 432 rows.
+
+Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/347cf02fc9360fee003f9d80c937edf678d0a589/Hospital%20Encounters%20SQL%20Project/Question%20%23%204%20Answer.png
 
 SELECT patient_type, COUNT(patient_type)
 FROM hospital_encounters_for_behavioral_health_cleaned
