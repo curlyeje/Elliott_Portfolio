@@ -122,6 +122,8 @@ LIMIT 3;
 --  6. What are the lowest demographic category values? 
 --  American Indian/Alaska Native, Other Payer, and Uninsured are the lowest in the Inpatient hospitalization discharges or ED visits
 
+Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/7d1ced1c300583276b74acf99db62a3c41dd9281/Hospital%20Encounters%20SQL%20Project/Question%20%23%206%20Answer.png
+
 SELECT demographic_category_value, SUM(count) as demographic_count
 FROM hospital_encounters_for_behavioral_health_cleaned
 GROUP BY demographic_category_value
