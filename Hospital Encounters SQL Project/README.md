@@ -55,7 +55,7 @@ SET percent = ROUND(percent, 2);
 
 -- Will check to make sure UPDATE worked correctly. It worked. 
 
-https://github.com/curlyeje/Elliott_Portfolio/blob/6eac2f57e3aa3c771b6fcaf4ad309f4bcc6d5b4b/Hospital%20Encounters%20SQL%20Project/UPDATE%20screenshot.png
+Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/6eac2f57e3aa3c771b6fcaf4ad309f4bcc6d5b4b/Hospital%20Encounters%20SQL%20Project/UPDATE%20screenshot.png
 
 SELECT *
 FROM hospital_encounters_for_behavioral_health_cleaned;
@@ -73,11 +73,13 @@ FROM hospital_encounters_for_behavioral_health_cleaned
 GROUP BY year
 ORDER BY year ASC;
 
-https://github.com/curlyeje/Elliott_Portfolio/blob/3068d39e5463b4e99f0a4652f84c77eb4760c4e2/Hospital%20Encounters%20SQL%20Project/Question%20%23%201%20Answer.png
+Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/3068d39e5463b4e99f0a4652f84c77eb4760c4e2/Hospital%20Encounters%20SQL%20Project/Question%20%23%201%20Answer.png
 
 -- 2. Which year had the highest number of behavioral health-related hospital encounters? 
 
 -- The year 2022 had the highest number of behavioral health-related hosptial encounters with a total of 317,653,552
+
+Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/d97668d013f5e1d517c2b423da8bc8c2ed56dda7/Hospital%20Encounters%20SQL%20Project/Question%20%23%202%20Answer.png
 
 SELECT year, SUM(total)
 FROM hospital_encounters_for_behavioral_health_cleaned
