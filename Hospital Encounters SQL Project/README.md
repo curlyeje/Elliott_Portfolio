@@ -133,5 +133,7 @@ LIMIT 3;
 -- 7. What is the total demographic category value? 
 --   Total is 219,078,738
 
+Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/e88fcd99c1fd69be098182ce601221473cd50ec0/Hospital%20Encounters%20SQL%20Project/Question%20%23%207%20Answer.png
+
 SELECT SUM(count)
 FROM hospital_encounters_for_behavioral_health_cleaned;
