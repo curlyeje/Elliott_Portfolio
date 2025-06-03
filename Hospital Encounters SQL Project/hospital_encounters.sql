@@ -54,7 +54,7 @@ UPDATE hospital_encounters_for_behavioral_health_cleaned
 SET percent = ROUND(percent, 2);
 
 -- Will check to make sure UPDATE worked correctly. It worked. 
-[Your Link Here](https://www.youtube.com/watch?v=uvTcd-VlM64)
+
 SELECT *
 FROM hospital_encounters_for_behavioral_health_cleaned;
 
