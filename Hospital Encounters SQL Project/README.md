@@ -90,6 +90,8 @@ ORDER BY year DESC;
 
 -- The proportion of total hospital discharges was 6.36% due to substance use disorders. 
 
+Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/eff6d9de95032956da8fbb8baccd9fc4d12f6c28/Hospital%20Encounters%20SQL%20Project/Question%20%23%203%20Answer.png
+
 SELECT diagnosis_group, ROUND(SUM(percent), 2)
 FROM hospital_encounters_for_behavioral_health_cleaned
 WHERE diagnosis_group = 'Substance Use Disorders' ;
