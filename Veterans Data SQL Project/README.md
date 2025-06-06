@@ -114,7 +114,7 @@ FROM veterans_who_used_va_health_care_cleaned
 GROUP BY state_name
 ORDER BY highest_percentage DESC;
 
--- Screenshot 
+-- Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/db3f10ea56128150e43b1584b2a32bdd1fe66a95/Veterans%20Data%20SQL%20Project/Question%20%23%202%20Answer%20Part%201.png 
 
 SELECT state_name, MIN(veterans_va_percentage) AS lowest_percentage,
   DENSE_RANK() OVER (ORDER BY MIN(veterans_va_percentage) ASC
