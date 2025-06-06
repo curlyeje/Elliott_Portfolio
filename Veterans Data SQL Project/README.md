@@ -174,7 +174,7 @@ GROUP BY year;
 # 7. Which year had the highest overall percentage of VA health care usage?
 -- The year 2015 had the highest overall percentage of VA health care usage with a 54 percent. 
 
--- Screenshot
+-- Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/8c041c5640f64a8d86b889e76d1e10e2053ebc98/Veterans%20Data%20SQL%20Project/Question%20%23%207%20Answer.png
 
 SELECT year, MAX(veterans_va_percentage) as highest_percentage
 FROM veterans_who_used_va_health_care_cleaned
