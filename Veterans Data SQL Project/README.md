@@ -192,6 +192,8 @@ FROM veterans_who_used_va_health_care_cleaned;
 # 9. What is the total Number of VA Patients in Health Care rounded to the nearest whole number.
 -- In the years from 2010 - 2015, the total Veteran Population was approximately 40 million.
 
+-- Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/935c1fe83e170cbdaf8528ab232e404602eaced6/Veterans%20Data%20SQL%20Project/Question%20%23%209%20Answer.png
+
 SELECT ROUND(SUM(number_of_va_in_health_care), 0) as number_of_va_in_health_care
 FROM veterans_who_used_va_health_care_cleaned;
 
