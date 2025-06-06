@@ -2,7 +2,7 @@
 
 -- Raw Data
 
--- Screenshot
+-- Screenshot : https://github.com/curlyeje/Elliott_Portfolio/blob/9b0a6767c32628a03dfaa4902811d72a69ea188b/Veterans%20Data%20SQL%20Project/Raw%20Data.png
 
 SELECT * 
 FROM veterans_who_used_va_health_care;
