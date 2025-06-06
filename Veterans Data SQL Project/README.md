@@ -200,6 +200,8 @@ FROM veterans_who_used_va_health_care_cleaned;
 # 10. Which top 3 states have the highest population of Veterans?
 -- In the years of 2010 - 2015, the top 3 states are California, Texas, and Florida.
 
+-- Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/a90bb00a906be346b1f36d27519f32b9de529c90/Veterans%20Data%20SQL%20Project/Question%20%23%2010%20Answer.png
+
 SELECT state_name,ROUND(SUM(veteran_population), 0) as veteran_population
 FROM veterans_who_used_va_health_care_cleaned
 GROUP BY state_name
