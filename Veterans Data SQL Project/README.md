@@ -223,7 +223,7 @@ LIMIT 1;
 # 12. Which state had the lowest number of VA Health Care Patients in the most recent year?
 -- District of Columbia had the lowest number of VA Health Care Patients in 2015 with a total of 8,226 
 
--- Screenshot
+-- Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/c0c3d9499c88639d6fd0abac4a865ab8e6e74571/Veterans%20Data%20SQL%20Project/Question%20%23%2012%20Answer.png
 
 SELECT MAX(year),state_name, MIN(number_of_va_in_health_care) as num_of_va_in_health_care
 FROM veterans_who_used_va_health_care_cleaned
