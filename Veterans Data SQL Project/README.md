@@ -123,7 +123,7 @@ FROM veterans_who_used_va_health_care_cleaned
 GROUP BY state_name
 ORDER BY lowest_percentage ASC;
 
--- Screenshot
+-- Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/976522f9d375fc29bbbc3fb95cbcaa6831688737/Veterans%20Data%20SQL%20Project/Question%20%23%202%20Answer%20Part%202.png
 
 # 3. How does the veteran population change over time in different states?
 
