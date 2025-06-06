@@ -137,7 +137,7 @@ FROM veterans_who_used_va_health_care_cleaned
 GROUP BY state_name, year
 ORDER BY state_name, year;
 
--- Screenshot
+-- Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/0edd74fcac0edd3787d7b63ea290a8e4369ca735/Veterans%20Data%20SQL%20Project/Question%20%23%203%20Answer.png
 
 # 4. Which states experienced the largest increase in VA health care usage from 2010 to the most recent year? 
 
