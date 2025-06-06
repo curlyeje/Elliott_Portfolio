@@ -148,6 +148,8 @@ FROM veterans_who_used_va_health_care_cleaned
 GROUP BY state_name
 ORDER BY largest_increase DESC ;
 
+-- Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/4472cd92b19cfbb2b37ed5253f573b6c76beaff4/Veterans%20Data%20SQL%20Project/Question%20%23%204%20Answer.png
+
 # 5. Which states have the most efficient VA outreach (high percentage use with relatively small veteran populations)?
 
 -- Puerto Rico, South Dakota, and Wymoning has the higher percentages of most efficient VA outreach with a smaller veteran population. 
