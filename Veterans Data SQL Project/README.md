@@ -164,7 +164,7 @@ ORDER BY highest_percentage DESC, small_veteran_population ASC;
 # 6. What was the national average of veterans using VA health care in a given year?
 -- The national average of veterans using VA health care in a given was at its highest in 2015 with an average of approx 114,408
 
--- Screenshot
+-- Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/b15c47f079b19a39b1e870f8591c1c8e157a518a/Veterans%20Data%20SQL%20Project/Question%20%23%206%20Answer.png
 
 SELECT year, ROUND(AVG(number_of_va_in_health_care), 2) as national_average
 FROM veterans_who_used_va_health_care_cleaned
