@@ -211,7 +211,7 @@ LIMIT 3;
 # 11. Which state had the highest number of VA Health Care Patients in the most recent year? 
 -- Florida had the highest number of VA Health Care Patients in 2015 with a total of 504,267. 
 
--- Screenshot
+-- Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/0e5ec39202b477fd0d118615f35bf966ec276af3/Veterans%20Data%20SQL%20Project/Question%20%23%2011%20Answer.png
 
 SELECT MAX(year),state_name, MAX(number_of_va_in_health_care) as num_of_va_in_health_care
 FROM veterans_who_used_va_health_care_cleaned
