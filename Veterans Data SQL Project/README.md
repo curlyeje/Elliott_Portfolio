@@ -9,7 +9,7 @@ FROM veterans_who_used_va_health_care;
 
 -- Cleaned Data
 
--- Screenshot 
+-- Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/3017d5c919a54fac20fcbc274e6fef5d448fff5a/Veterans%20Data%20SQL%20Project/Cleaned%20Data.png
 
 SELECT * 
 FROM veterans_who_used_va_health_care_cleaned;
