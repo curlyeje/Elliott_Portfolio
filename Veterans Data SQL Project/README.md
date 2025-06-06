@@ -49,7 +49,7 @@ SET veterans_va_percentage = ROUND(veterans_va_percentage * 100, 0 ) ;
 
 -- Check to make sure it updated 
 
--- Screenshot
+-- Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/8d025656ec1b55220c6df7028900ceabab6ffcf5/Veterans%20Data%20SQL%20Project/UPDATE%20Statement.png
 
 SELECT veterans_va_percentage
 FROM veterans_who_used_va_health_care_cleaned;
