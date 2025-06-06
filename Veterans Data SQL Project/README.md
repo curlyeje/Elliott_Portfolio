@@ -234,7 +234,7 @@ LIMIT 1;
 # 13. Which state had the highest percentage of veterans in the most recent year?
 -- Puerto Rico had the highest percentage of veterans in 2015 with 54% 
 
--- Screenshot
+-- Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/ba91a639291c6a0898b9bc577c271fcce31ca3d9/Veterans%20Data%20SQL%20Project/Question%20%23%2013%20Answer.png
 
 SELECT state_name, MAX(year), MAX(veterans_va_percentage) as veterans_va_percentage
 FROM veterans_who_used_va_health_care_cleaned
