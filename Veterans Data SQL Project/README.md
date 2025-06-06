@@ -1,3 +1,6 @@
+-- This dataset titled “Veterans Who Used VA Health Care” provides annual data from 2010 to 2015 on the utilization of VA health services across all U.S. states. Each record includes the state name, the total veteran population, the number of veterans who used VA health care, and the percentage of veterans utilizing these services. On average, about 27.6% of veterans in each state used VA health care annually, though this rate varied widely—from as low as 16% to as high as 54.5%. The data shows significant differences in both veteran population sizes and VA usage across states, with larger states like California or Texas showing higher numbers of VA patients. The dataset offers valuable insight into trends in health care access and utilization among veterans over time, highlighting regional and temporal variations that could inform policy or program development.
+
+
 -- Data Cleaning Steps
 
 -- Raw Data
