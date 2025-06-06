@@ -154,7 +154,7 @@ ORDER BY largest_increase DESC ;
 
 -- Puerto Rico, South Dakota, and Wymoning has the higher percentages of most efficient VA outreach with a smaller veteran population. 
 
--- Screenshot
+-- Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/a001192e0d19f957820a12843f965bc9403d4b70/Veterans%20Data%20SQL%20Project/Question%20%23%205%20Answer.png
 
 SELECT state_name, MAX(veterans_va_percentage) as highest_percentage, MIN(veteran_population) as small_veteran_population
 FROM veterans_who_used_va_health_care_cleaned
