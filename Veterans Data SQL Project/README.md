@@ -79,6 +79,8 @@ WHERE ROUND((number_of_va_in_health_care / veteran_population) * 100, 0) != vete
  # 1. How has the percentage of veterans using VA health care changed over time?
 -- In the years of 2010 - 2015, the change was approximately a 526 percentage points of increase on veterans using VA health care over this period of time. 
 
+-- Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/2f731e2e1e7cb876f2327c644f465800cbe788ad/Veterans%20Data%20SQL%20Project/Question%20%23%201%20Answer%20Part%201.png
+
 SELECT year, ROUND(AVG(veterans_va_percentage) * 100, 0) AS avg_va_usage_percent
 FROM veterans_who_used_va_health_care_cleaned
 GROUP BY year
