@@ -184,6 +184,8 @@ ORDER BY highest_percentage DESC;
 # 8. What is the total Veteran Population rounded to the nearest whole number?
 -- In the years from 2010 - 2015, the total Veteran Population was approximately 130 million. 
 
+-- Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/af9931be59df7ab9f6183c288b02300bc78ea7ca/Veterans%20Data%20SQL%20Project/Question%20%23%208%20Answer.png
+
 SELECT ROUND(SUM(veteran_population), 0) as total_veteran_population
 FROM veterans_who_used_va_health_care_cleaned;
 
