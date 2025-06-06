@@ -88,6 +88,8 @@ ORDER BY year;
 
 -- Created a CTE on avg_over_time 
 
+-- Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/cd578d23aaa3234eafe9cf1926bed85b271cdeb4/Veterans%20Data%20SQL%20Project/Question%20%23%201%20Answer%20Part%202.png
+
 WITH avg_over_time AS (
   SELECT year, 
     ROUND(AVG(veterans_va_percentage) * 100, 0) AS avg_va_usage_percent
