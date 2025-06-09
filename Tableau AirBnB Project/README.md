@@ -38,8 +38,9 @@ Average Price per Bedroom Screenshot: https://github.com/curlyeje/Elliott_Portfo
 
 Sheet 5: Bedroom Listing Volume - This visualization revealed the number of listings per bedroom count, helping my friend assess market competition in the 3-bedroom category.
 
-Bedroom Listing Volume Screenshot: 
+Bedroom Listing Volume Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/c5b8576b1b10a6afda4977b0f9afb28a5455f7db/Tableau%20AirBnB%20Project/Number%20of%20Bedroom%20Listings.png
 
 
-📋 Final Dashboard
-All visualizations were compiled into an interactive dashboard to present a clear, data-driven summary of insights. This tool empowered my friend to evaluate the Seattle Airbnb market and make a more strategic investment decision.
+Final Dashboard - All visualizations were compiled into an interactive dashboard to present a clear, data-driven summary of insights. This tool empowered my friend to evaluate the Seattle Airbnb market and make a more strategic investment decision.
+
+Final Dashboard Screenshot: 
