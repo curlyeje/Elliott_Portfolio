@@ -36,10 +36,12 @@ In the second stage, I built a pivot table to explore and break down the three c
 
 2. Purchased Bikes vs Customer Commute Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/6787fd29c308baefc469e4f7895dafef7d94d161/Bike%20Sales%20Excel%20Project/Purchased%20Bikes%20vs%20Customer%20Commute.png
 
-3. Purchased Bikes vs Age Brackets Screenshot: 
+3. Purchased Bikes vs Age Brackets Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/4f43cb79bd5b6d1e61f7cac5a124557da9bb9ce7/Bike%20Sales%20Excel%20Project/Purchased%20Bikes%20vs%20Age%20Brackets.png
 
 Dashboard Design:
 To enhance interactivity and insight delivery, I created a dashboard using slicers that allow filtering the data by Marital Status, Region, and Education Level. This feature was added with stakeholders in mind, allowing them to explore specific segments of interest dynamically.
+
+Dashboard 
 
 Key Findings:
 Males were the leading purchasers of bikes, especially among those with higher average incomes.
