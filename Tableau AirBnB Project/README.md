@@ -33,11 +33,13 @@ Best Months to Rent Screenshot: https://github.com/curlyeje/Elliott_Portfolio/bl
 
 Sheet 4: Average Price per Bedroom - This analysis broke down pricing by bedroom count, offering targeted insight into 3-bedroom homes, which aligned with my friend's investment criteria.
 
-Average Price per Bedroom Screenshot: 
+Average Price per Bedroom Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/08d31cc20a339fd3fe727ff10acabfae4c25873f/Tableau%20AirBnB%20Project/Average%20Price%20per%20Bedroom.png
 
 
-📈 Sheet 5: Bedroom Listing Volume
+Sheet 5: Bedroom Listing Volume - This visualization revealed the number of listings per bedroom count, helping my friend assess market competition in the 3-bedroom category.
 
-This visualization revealed the number of listings per bedroom count, helping my friend assess market competition in the 3-bedroom category.
+Bedroom Listing Volume Screenshot: 
+
+
 📋 Final Dashboard
 All visualizations were compiled into an interactive dashboard to present a clear, data-driven summary of insights. This tool empowered my friend to evaluate the Seattle Airbnb market and make a more strategic investment decision.
