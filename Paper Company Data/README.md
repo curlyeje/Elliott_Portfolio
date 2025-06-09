@@ -2,23 +2,23 @@ Please click the link below to view my story on the paper company data:
 
 https://public.tableau.com/shared/5SW9ND55Q?:display_count=n&:origin=viz_share_link
 
-This project was completed using Tableau. The project consisted of paper company data in which the manager wanted further insigts on how our current products in the company are performing. A dashboard was built and generated a story to share with the manager and other stakeholders. 
+This project was developed using Tableau and focused on analyzing data from a paper supply company. The objective was to provide the manager with deeper insights into product performance and trends across different customer segments. A comprehensive dashboard and story presentation were created to effectively communicate findings to the manager and other stakeholders.
 
-Data Cleaning Steps: 
+Data Cleaning:
+No duplicate records or standardization issues were found in either of the datasets.
+A relationship was established between the orders and order_details tables to ensure accurate analysis and answer the manager’s core questions.
+Exploratory Data Analysis & Dashboard Story: 
 
--- There weren't any duplicates in the data nor any data that neeeded standardization in both tables. 
--- Created a Relationship between the orders and order_details tables in order to solve the manager's question. 
+Slide 1: Profitability by Product Category Screenshot: 
 
+Products in the Office Accessories & Organization category had the highest overall sales volume, outperforming all other categories.
+📊 Slide 2: Deep Dive into Printing & Technology
 
+The Printing and Technology category showed a notable 64.5% increase in profit over four years, while other categories remained relatively flat.
+💰 Slide 3: Top-Performing Product
 
-Exploratory Data Analysis: 
+The Graphing Calculator emerged as the most profitable product within the Printing & Technology category, contributing to 43% of the total category profit over the past four years.
+🗺️ Slide 4: Customer Segmentation & Geographic Insights
 
--- In the Profitability of Products Story, (1st slide) I found that the current products in the Office Accessories and Organization section sells more products than any other category. 
-
--- On the 2nd slide, I took a deeper dive into the priniting and technology category and found that profit increased 64.5% in 4 years while other categories have remained stagnant. 
-
--- On the 3rd slide, it was found that the highest profit product in our Printing and Technology Category was the Graphing Calculator which were 43% of total profit over the last 4 years. 
-
--- On the final slide, there is a Map and Segmentation of customers who purchased the graphing calculator and whether they were individual consumers, small businesses, or corporations. The Map of Calculator Sales for Individual Consumers gives the manager an indepth view of customers who purchased the Graphing Calculator around the U.S.
-
-
+The final slide features an interactive map and segmentation analysis showing who purchased graphing calculators—distinguishing between individual consumers, small businesses, and corporations.
+The Map of Calculator Sales (Individual Consumers) provides an in-depth, geographic view of customer purchases across the U.S., offering valuable insights for targeted marketing and inventory planning.
