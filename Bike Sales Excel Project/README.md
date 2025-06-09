@@ -32,6 +32,8 @@ Data Cleaning:
 Data Analysis & Pivot Table Creation:
 In the second stage, I built a pivot table to explore and break down the three central questions. This helped in identifying clear trends and comparisons across demographic groups.
 
+1. Purchased Bikes vs Average Income Screenshot: 
+
 Dashboard Design:
 To enhance interactivity and insight delivery, I created a dashboard using slicers that allow filtering the data by Marital Status, Region, and Education Level. This feature was added with stakeholders in mind, allowing them to explore specific segments of interest dynamically.
 
