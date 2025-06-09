@@ -10,14 +10,20 @@ I worked with three primary tables: Listings, Calendar, and Reviews.
 A JOIN operation was used to combine the Listings and Calendar tables via their primary key to enrich the data for deeper analysis.
 The Reviews table was excluded from the analysis, as customer reviews were not a priority for my friend's decision-making.
 
-JOIN Clause Screenshot: 
+JOIN Clause Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/9affa40f64994cec801a95410d640232edbc9d25/Tableau%20AirBnB%20Project/JOIN%20Clause.png
+
 
 Visualizations & Insights
-🗺️ Sheet 1: Average Price by Zip Code
 
-This view analyzed Airbnb prices by zip code to identify pricing trends.
+Price By ZipCode: Average Price by Zip Code: This view analyzed Airbnb prices by zip code to identify pricing trends.
 Notably, Zip Code 98134 had an average nightly rate of $206.
-🌐 Sheet 2: Price Distribution Map
+
+Price By ZipCode Screenshot: 
+
+
+
+
+ Sheet 2: Price Distribution Map
 
 A map visualization was created using latitude and longitude data to show geographic differences in average pricing by zip code.
 📅 Sheet 3: Best Months to Rent
