@@ -45,8 +45,6 @@ Dashboard-1 Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/0a2a4
 
 Dashboard-2 Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/34ed39fa3672eda3073b2ee9d01c5695f6b9db7d/Bike%20Sales%20Excel%20Project/Dashboard-2.png
 
-Dashboard 
-
 Key Findings:
 Males were the leading purchasers of bikes, especially among those with higher average incomes.
 Among those with a 0–1 mile commute, 200 individuals purchased bikes.
