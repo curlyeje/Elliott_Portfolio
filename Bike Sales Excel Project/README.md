@@ -19,7 +19,11 @@ Data Cleaning:
 
 - Raw Data Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/5007ba1bf1de09310a0497a6bad29d400df6f492/Bike%20Sales%20Excel%20Project/Gender%20and%20Marital%20Status%20Raw%20Data.png
 
-- Cleaned Data Screenshot: 
+- Cleaned Data Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/97891c4892d7958c66b6f949c21f0fd85373eb53/Bike%20Sales%20Excel%20Project/Gender%20and%20Marital%20Status%20Cleaned%20Data.png
+
+2. Added an Age Bracket Column in order to filter on it when building the dashboard.
+
+- Raw Data Screenshot: 
 
 
 
