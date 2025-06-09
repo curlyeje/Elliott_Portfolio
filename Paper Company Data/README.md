@@ -18,10 +18,11 @@ Slide 2: Deep Dive into Printing & Technology : The Printing and Technology cate
 
 Slide 2 Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/99d6fe0155ce2822562b991487531d92a6b04ff5/Paper%20Company%20Data/2nd%20Slide.png
 
-Slide 3: Top-Performing Product
+Slide 3: Top-Performing Product: The Graphing Calculator emerged as the most profitable product within the Printing & Technology category, contributing to 43% of the total category profit over the past four years.
 
-The Graphing Calculator emerged as the most profitable product within the Printing & Technology category, contributing to 43% of the total category profit over the past four years.
-🗺️ Slide 4: Customer Segmentation & Geographic Insights
+Slide 3 Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/9201885d764271b2c2c4d25b915a3a6e3389e044/Paper%20Company%20Data/3rd%20Slide.png
 
-The final slide features an interactive map and segmentation analysis showing who purchased graphing calculators—distinguishing between individual consumers, small businesses, and corporations.
+Slide 4: Customer Segmentation & Geographic Insights: The final slide features an interactive map and segmentation analysis showing who purchased graphing calculators—distinguishing between individual consumers, small businesses, and corporations.
 The Map of Calculator Sales (Individual Consumers) provides an in-depth, geographic view of customer purchases across the U.S., offering valuable insights for targeted marketing and inventory planning.
+
+Slide 4 Screenshot: 
