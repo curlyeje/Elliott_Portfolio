@@ -23,7 +23,7 @@ Data Cleaning:
 
 2. Added an Age Bracket Column in order to filter on it when building the dashboard.
 
-- Raw Data Screenshot: 
+- Raw Data Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/a73309060412a8f9f839b8f1794dc2c88d5cfd70/Bike%20Sales%20Excel%20Project/Raw%20Column%20Age.png
 
 
 
