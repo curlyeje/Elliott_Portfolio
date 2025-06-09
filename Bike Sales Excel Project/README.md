@@ -11,6 +11,17 @@ The project was carried out in multiple stages:
 
 Data Cleaning:
 
+- Removing Duplicates: In this dataset, there were not any duplicates.
+
+- Standardizing Data:
+
+1. Changed the Gender and Marital Status Columns to make it look more appealing for vizualtion.
+
+- Raw Data Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/5007ba1bf1de09310a0497a6bad29d400df6f492/Bike%20Sales%20Excel%20Project/Gender%20and%20Marital%20Status%20Raw%20Data.png
+
+- Cleaned Data Screenshot: 
+
+
 
 Data Analysis & Pivot Table Creation:
 In the second stage, I built a pivot table to explore and break down the three central questions. This helped in identifying clear trends and comparisons across demographic groups.
