@@ -25,6 +25,8 @@ Data Cleaning:
 
 - Raw Data Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/a73309060412a8f9f839b8f1794dc2c88d5cfd70/Bike%20Sales%20Excel%20Project/Raw%20Column%20Age.png
 
+- Cleaned Data Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/a869d0db9d466473b8683959454da457736f1aa7/Bike%20Sales%20Excel%20Project/Age%20Brackets.png
+
 
 
 Data Analysis & Pivot Table Creation:
