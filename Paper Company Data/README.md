@@ -9,10 +9,11 @@ No duplicate records or standardization issues were found in either of the datas
 A relationship was established between the orders and order_details tables to ensure accurate analysis and answer the manager’s core questions.
 Exploratory Data Analysis & Dashboard Story: 
 
-Slide 1: Profitability by Product Category Screenshot: 
+Slide 1: Profitability by Product Category: Products in the Office Accessories & Organization category had the highest overall sales volume, outperforming all other categories.
 
-Products in the Office Accessories & Organization category had the highest overall sales volume, outperforming all other categories.
-📊 Slide 2: Deep Dive into Printing & Technology
+Slide 1 Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/fb1dea975f9c41f99ca424e668b32cf3ae315fa5/Paper%20Company%20Data/1st%20Slide.png
+
+Slide 2: Deep Dive into Printing & Technology
 
 The Printing and Technology category showed a notable 64.5% increase in profit over four years, while other categories remained relatively flat.
 💰 Slide 3: Top-Performing Product
