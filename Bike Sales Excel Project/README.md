@@ -43,7 +43,7 @@ To enhance interactivity and insight delivery, I created a dashboard using slice
 
 Dashboard-1 Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/0a2a4ad4baf5707f6648428aca0f1c2d6952a9ec/Bike%20Sales%20Excel%20Project/Dashboard-1.png
 
-Dashboard-2 Screenshot: 
+Dashboard-2 Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/34ed39fa3672eda3073b2ee9d01c5695f6b9db7d/Bike%20Sales%20Excel%20Project/Dashboard-2.png
 
 Dashboard 
 
