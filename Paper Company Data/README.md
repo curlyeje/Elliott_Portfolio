@@ -25,4 +25,4 @@ Slide 3 Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/9201885d7
 Slide 4: Customer Segmentation & Geographic Insights: The final slide features an interactive map and segmentation analysis showing who purchased graphing calculators—distinguishing between individual consumers, small businesses, and corporations.
 The Map of Calculator Sales (Individual Consumers) provides an in-depth, geographic view of customer purchases across the U.S., offering valuable insights for targeted marketing and inventory planning.
 
-Slide 4 Screenshot: 
+Slide 4 Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/a23217c988875d18277a9b17e0fae64f3deedfa3/Paper%20Company%20Data/4th%20Slide.png
