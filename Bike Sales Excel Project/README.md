@@ -41,6 +41,10 @@ In the second stage, I built a pivot table to explore and break down the three c
 Dashboard Design:
 To enhance interactivity and insight delivery, I created a dashboard using slicers that allow filtering the data by Marital Status, Region, and Education Level. This feature was added with stakeholders in mind, allowing them to explore specific segments of interest dynamically.
 
+Dashboard-1 Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/0a2a4ad4baf5707f6648428aca0f1c2d6952a9ec/Bike%20Sales%20Excel%20Project/Dashboard-1.png
+
+Dashboard-2 Screenshot: 
+
 Dashboard 
 
 Key Findings:
