@@ -28,12 +28,14 @@ Price per ZipCode Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob
 Sheet 3: Best Months to Rent - This sheet evaluated seasonal trends and highlighted the most profitable months to list the property.
 An average line was added to provide a benchmark for comparison.
 
-Best Months to Rent Screenshot: 
+Best Months to Rent Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/5fe806b75145513489cfc15c1616f6459fd904d5/Tableau%20AirBnB%20Project/Best%20Months%20to%20Rent%20Out%20Property.png
 
 
-🛏️ Sheet 4: Average Price per Bedroom
+Sheet 4: Average Price per Bedroom - This analysis broke down pricing by bedroom count, offering targeted insight into 3-bedroom homes, which aligned with my friend's investment criteria.
 
-This analysis broke down pricing by bedroom count, offering targeted insight into 3-bedroom homes, which aligned with my friend's investment criteria.
+Average Price per Bedroom Screenshot: 
+
+
 📈 Sheet 5: Bedroom Listing Volume
 
 This visualization revealed the number of listings per bedroom count, helping my friend assess market competition in the 3-bedroom category.
