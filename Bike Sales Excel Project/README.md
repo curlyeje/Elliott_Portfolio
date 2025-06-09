@@ -1,12 +1,24 @@
 # Bike_Sales_Data
 
-I was able to complete this project using Microsoft Excel. The project topic was on Regional Bike Sales,and how many people purchased or did not purchase bikes. The questions that needed to be ansewered are as follows:
+The dataset is designed to help analyze customer demographics and behaviors to understand who is likely to purchase a bicycle. It is likely used for predictive modeling, segmentation, or business decision-making in a retail or marketing context.
 
-What Gender purchased the most bikes with respect to their average income?
-How many people purchased bikes with respect to their daily commute?
-What age bracket purchased the most bikes?
-The first stage was the Data Cleaning Stage. The Data Cleaning Stage involved removing duplicates, standardizing the data, removing NULL or Blank values if necessary, and removing unnecessary columns. The second stage was creating a pivot table that dissected the three questions that needed to be solved. A dashboard was created to further then investigate the data by utlizing slicers to filter out the data with respect to Marital Status, Region, and Education. This was an additive just in case stakeholders wanted to filter out some of these domains in the near future. Here is what I found very interesting when answering these questions.
+I successfully completed this project using Microsoft Excel, focusing on Regional Bike Sales and analyzing patterns among individuals who purchased or did not purchase bicycles. The goal was to answer key business questions related to customer demographics and purchasing behavior:
 
-Males purchased the most bikes with respect to their average income.
-From 0-1 miles, 200 people purchased bikes.
-There were 383 Middle Aged Adults that purchased the most bikes.
+Which gender purchased the most bikes, and how does this relate to their average income?
+How does daily commute distance affect the likelihood of purchasing a bike?
+Which age bracket had the highest number of bike purchases?
+The project was carried out in multiple stages:
+
+Data Cleaning:
+
+
+Data Analysis & Pivot Table Creation:
+In the second stage, I built a pivot table to explore and break down the three central questions. This helped in identifying clear trends and comparisons across demographic groups.
+
+Dashboard Design:
+To enhance interactivity and insight delivery, I created a dashboard using slicers that allow filtering the data by Marital Status, Region, and Education Level. This feature was added with stakeholders in mind, allowing them to explore specific segments of interest dynamically.
+
+Key Findings:
+Males were the leading purchasers of bikes, especially among those with higher average incomes.
+Among those with a 0–1 mile commute, 200 individuals purchased bikes.
+The Middle-Aged Adult group had the highest number of buyers, with 383 purchases recorded.
