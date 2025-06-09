@@ -4,7 +4,7 @@ The dataset is designed to help analyze customer demographics and behaviors to u
 
 I successfully completed this project using Microsoft Excel, focusing on Regional Bike Sales and analyzing patterns among individuals who purchased or did not purchase bicycles. The goal was to answer key business questions related to customer demographics and purchasing behavior:
 
-If you want to view the excel file, please click this link: https://github.com/curlyeje/Elliott_Portfolio/blob/c4f875b8072e09d8c78fffc0d9b4e59efe2c152f/Bike%20Sales%20Excel%20Project/Excel%20Project%20Dataset.xlsx
+If you want to view the excel file, please click this link below and click "view raw": https://github.com/curlyeje/Elliott_Portfolio/blob/c4f875b8072e09d8c78fffc0d9b4e59efe2c152f/Bike%20Sales%20Excel%20Project/Excel%20Project%20Dataset.xlsx
 
 Which gender purchased the most bikes, and how does this relate to their average income?
 How does daily commute distance affect the likelihood of purchasing a bike?
