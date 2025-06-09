@@ -43,4 +43,4 @@ Bedroom Listing Volume Screenshot: https://github.com/curlyeje/Elliott_Portfolio
 
 Final Dashboard - All visualizations were compiled into an interactive dashboard to present a clear, data-driven summary of insights. This tool empowered my friend to evaluate the Seattle Airbnb market and make a more strategic investment decision.
 
-Final Dashboard Screenshot: 
+Final Dashboard Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/9d6e48cfe3547a0df19929895d254dc27dc45b8a/Tableau%20AirBnB%20Project/Dashboard-1.png
