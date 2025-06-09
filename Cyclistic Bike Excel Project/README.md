@@ -1,9 +1,0 @@
-# Cyclistic_Bike_Share_Data
-#PLEASE DOWNLOAD FILE TO SEE THE CLEAN VERSION OF THE CYCLISTIC BIKE SHARE DATA IN HTML FORMAT
-
-Essentially, Cyclistic is a bike share company located in Chicago. The director of marketing wanted me to answer the question of how do annual members and casual riders use Cyclistic bikes differently. I was tasked to complete this project in RStudio. The packages that were used were tidyverse, in which I had to use a conflict_prefer to filter dplyr over any other package. To get started, I housed the datasets into RStudio. The next step was to wrangle the data and combine it into a single file. Then, the data had to be cleaned and additional data was inputted to prepare for the analysis. After the analysis phase, I then conducted the descriptive analysis which checked for multiple variables such as the average, median, max, and min of ride length between casual users and members. Also looked into the average ride time by each day for members vs casual riders. Further investigated the data by diving into the ridership data by type and weekday. Finally, two visualizations were developed to understand the differences between the number of rides by weekday and member type, and the average duration between casual users and members. In conclusion, I don't believe that there is enough data to support the question being asked, and that the company should continue to collect data in order to better answer this question. Perhaps some areas to further investigate would be the following: 
-
-1. What are some key factors on why members are engaging in more number of rides during the week?
-2. What are some of the incentives for members?
-3. Why are casual users riding more often that members during the week?
-4. What are some reasons for casual members to ride more frequently on Thursdays?
