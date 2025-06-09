@@ -15,17 +15,16 @@ JOIN Clause Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/9affa
 
 Visualizations & Insights
 
-Price By ZipCode: Average Price by Zip Code: This view analyzed Airbnb prices by zip code to identify pricing trends.
+Price By ZipCode: Average Price by Zip Code - This view analyzed Airbnb prices by zip code to identify pricing trends.
 Notably, Zip Code 98134 had an average nightly rate of $206.
 
-Price By ZipCode Screenshot: 
+Price By ZipCode Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/b2932cfec3dfb1fa7b353e39731fe46c9c68b105/Tableau%20AirBnB%20Project/Price%20By%20ZipCode.png
+
+Price per ZipCode: Price Distribution Map - A map visualization was created using latitude and longitude data to show geographic differences in average pricing by zip code.
+
+Price per ZipCode Screenshot: 
 
 
-
-
- Sheet 2: Price Distribution Map
-
-A map visualization was created using latitude and longitude data to show geographic differences in average pricing by zip code.
 📅 Sheet 3: Best Months to Rent
 
 This sheet evaluated seasonal trends and highlighted the most profitable months to list the property.
