@@ -8,7 +8,7 @@ Exploratory Data Analysis (EDA):
 
 Tenure Churn Count: Highlighted churn distribution based on customer tenure, showing that newer customers were more likely to churn.
 
-Tenure Churn Count Screenshot: 
+Tenure Churn Count Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/7a0e8e3bd6cb3497b52d6abdd01a0c04db4fd962/Tableau%20Churn%20Rate%20Dashboard/Tenure%20Churn%20Count.png
 
 Total vs. Monthly Charges: Revealed that higher monthly charges significantly impacted churn rates, especially among newer users.
 
