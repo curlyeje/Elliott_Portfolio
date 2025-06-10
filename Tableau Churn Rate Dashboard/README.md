@@ -24,4 +24,4 @@ Payment Method Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/e1
 
 All findings were compiled into a comprehensive dashboard, providing the manager with actionable insights and recommendations to reduce churn.
 
-Dashboard Screenshot: 
+Dashboard Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/0475b536ac779f78412cddc3d203586cac9b5d2f/Tableau%20Churn%20Rate%20Dashboard/Churn%20Rate%20Dashboard.png
