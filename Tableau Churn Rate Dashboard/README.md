@@ -12,7 +12,7 @@ Tenure Churn Count Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blo
 
 Total vs. Monthly Charges: Revealed that higher monthly charges significantly impacted churn rates, especially among newer users.
 
-Total vs. Monthly Charrges Screenshot: 
+Total vs. Monthly Charrges Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/9d64fc44e8640cb208bca7b93e2fe8d0475e40fb/Tableau%20Churn%20Rate%20Dashboard/Total%20vs%20Monthly%20Charges.png
 
 Contract Type: Indicated that most churn came from customers on month-to-month contracts.
 
