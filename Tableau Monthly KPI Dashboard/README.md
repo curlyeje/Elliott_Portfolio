@@ -3,29 +3,38 @@ Please click on this link to view the full Monthly KPI Dashboard Project:
 https://public.tableau.com/views/MonthlyKPIDashboard_17466290324780/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
 
-The Monthly KPI Dashboard was created using Tableau. A Manager in the Call Center wanted a Monthly KPI Dashboard in order to 
-track how his employees are doing as well as some overall information about the calls. 
+The Monthly KPI Dashboard was developed using Tableau to help a Call Center Manager monitor employee performance and gain key insights into call center activity on a monthly basis.
 
-Data Cleaning Steps: 
+Data Preparation:
 
--- In the date column, the datatype was changed from String to Date.
--- Created an Hour of Call column in order to track which hours of the day we were getting the most calls. 
--- Created an average duration (seconds) column to track how long each agent was on the call with customers. 
+1. Converted the Date column from string to date format for accurate time-based analysis.
+2. Created a new Hour of Call column to identify peak call times throughout the day.
+3. Calculated an Average Duration (in seconds) column to track how long agents were on calls with customers.
+
+Exploratory Data Analysis & Visualizations:
+
+Satisfaction Rating (Sheet 1): Displayed customer satisfaction ratings (scale of 0–5). The most common ratings were 3, 4, and 5, with rating 3 being the most frequent (392 responses).
+
+Satisfaction Rating Screenshot: 
 
 
-Exploratory Data Analysis: 
+Call Volume by Weekday (Sheet 2): Highlighted that Monday, Tuesday, and Thursday consistently had the highest call volumes, particularly in the most recent month.
 
--- A Satisfaction Rating (Sheet 1) was created in order to showcase our highest ratings (0-5) which were 3,4, and 5. 
-We had the highest satisfaction rating with 3 being 392 customers who gave us this rating. 
--- Call Volume During Week (Sheet 2) was created to better understand which days of the week we were receiving highest amount of 
-calls which were Monday, Tuesday, and Thursday. These 3 days being above average on the most recent month. 
--- Call Volume During Day (Sheet 3) showed further insigts on what our busiest times were in the most recent month. 
-Which were 10am, 1pm, 3pm, 4pm, and 5pm. 
--- Resolution Rate (Sheet 4) was created in order to understand what our percentages were on resolved calls for the current month. 
--- Calls Per Day (Sheet 5) was created in order to provide further insights on how many calls we received today, and 
-how long the calls took on average. 
--- Resolution Rates by Agent (Sheet 6) shows Dan, Diane, and Joe being at the lowest percentile for Resolution Rates.  
--- Resolved Calls by Agent (Sheet 7) shows Dan and Joe being the lowest in Resolved Calls. 
--- Speed of Answer by Agent (Sheet 8) shows Greg, Joe, and Martha being the highest in the speed of answer. 
+Call Volume by Weekday Screenshot: 
 
--- Built a Dashboard to showcase and visualize to the manager. 
+
+Call Volume by Hour (Sheet 3): Identified peak call times, which occurred around 10 AM, 1 PM, 3 PM, 4 PM, and 5 PM.
+
+Call Volume by Hour Screenshot: 
+
+
+Resolution Rate (Sheet 4): Showed the percentage of calls resolved during the current month.
+
+Resolution Rate Screenshot: 
+
+
+Calls Per Day (Sheet 5): Tracked daily call totals along with average call durations.
+Resolution Rate by Agent (Sheet 6): Highlighted agents Dan, Diane, and Joe as having the lowest resolution rates.
+Resolved Calls by Agent (Sheet 7): Indicated that Dan and Joe resolved the fewest calls.
+Speed of Answer by Agent (Sheet 8): Showed that Greg, Joe, and Martha had the fastest response times.
+A comprehensive dashboard was built to present these insights in an interactive and visually engaging format for the manager to monitor team performance and operational trends effectively.
