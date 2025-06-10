@@ -20,7 +20,7 @@ Contract Type Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/3a2
 
 Payment Method: Identified that customers using electronic checks had the highest churn rate.
 
-Payment Method Screenshot: 
+Payment Method Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/e1faffaba0448ae5d68a894552abeea2041e933a/Tableau%20Churn%20Rate%20Dashboard/Payment%20Method%20Churn.png
 
 All findings were compiled into a comprehensive dashboard, providing the manager with actionable insights and recommendations to reduce churn.
 
