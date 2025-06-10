@@ -16,7 +16,7 @@ Total vs. Monthly Charrges Screenshot: https://github.com/curlyeje/Elliott_Portf
 
 Contract Type: Indicated that most churn came from customers on month-to-month contracts.
 
-Contract Type Screenshot: 
+Contract Type Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/3a25e89d64fe7674af601cf25d0d6faa240e761c/Tableau%20Churn%20Rate%20Dashboard/Contract%20Type%20Churn.png
 
 Payment Method: Identified that customers using electronic checks had the highest churn rate.
 
