@@ -38,7 +38,7 @@ Resolution Rate by Agent Screenshot: https://github.com/curlyeje/Elliott_Portfol
 
 Resolved Calls by Agent (Sheet 7): Indicated that Dan and Joe resolved the fewest calls.
 
-Resolved Calls by Agent Screenshot: 
+Resolved Calls by Agent Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/3858275f2cfe2c7b07d6d1be2b48220991b1cbea/Tableau%20Monthly%20KPI%20Dashboard/Resolved%20Calls%20by%20Agent.png
 
 Speed of Answer by Agent (Sheet 8): Showed that Greg, Joe, and Martha had the fastest response times.
 
