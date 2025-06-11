@@ -20,7 +20,7 @@ Satisfaction Rating Screenshot: https://github.com/curlyeje/Elliott_Portfolio/bl
 
 Call Volume by Weekday (Sheet 2): Highlighted that Monday, Tuesday, and Thursday consistently had the highest call volumes, particularly in the most recent month.
 
-Call Volume by Weekday Screenshot: 
+Call Volume by Weekday Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/31948495500f62c1e13a0971e7d0f7fb6731ca44/Tableau%20Monthly%20KPI%20Dashboard/Call%20Volume%20During%20Week.png
 
 
 Call Volume by Hour (Sheet 3): Identified peak call times, which occurred around 10 AM, 1 PM, 3 PM, 4 PM, and 5 PM.
