@@ -15,9 +15,12 @@ https://github.com/curlyeje/Elliott_Portfolio/blob/31112b6a1ff61cdbc470365e69c1b
 Exploratory Data Analysis (EDA):
 Once the data was cleaned, I performed the following analyses:
 
-Calculated the Yearly Percentage Change in national debt.
-Created Monthly Historical Trends using Pivot Tables.
-Used the FORECAST function to project future debt trends.
+1. Calculated the Yearly Percentage Change in national debt.
+
+Yearly Percentage Change Screenshot: 
+2. Created Monthly Historical Trends using Pivot Tables.
+3. Used the FORECAST function to project future debt trends.
+
 Key Findings:
 The average annual increase in debt between 2016 and 2019 was approximately 5%.
 A significant spike in national debt aligns with the COVID-19 pandemic response measures in the U.S.
