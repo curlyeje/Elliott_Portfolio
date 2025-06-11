@@ -1,32 +1,32 @@
-This project was completed usting MYSQL Workbench. The dataset consisted of the US Household Income and varied by State, City,
-and Types. There was another table that was INNER JOINED in order to calculate the Mean and Median to know which States, City, 
-and Types are doing well. The Statistics table did not go through the data cleaning process as there was nothing to clean. 
+This project was completed using MySQL Workbench, with the dataset focusing on U.S. Household Income, segmented by State, City, 
+and Income Type. An additional table "statistics" was INNER JOINED to calculate Mean and Median values, allowing for comparison across different regions 
+and income categories to determine which areas are performing well.
 
 Data Cleaning Steps: 
 
--- Removed Duplicates by using the window function ROW_NUMBER() OVER(PARTITION BY) in order to partition on the duplicate ID's 
-which were the primary key in order to identify the duplicates in this dataset. 
--- Removed any unnecessary duplicates
+1. The Statistics table did not require any data cleaning, as it was already well-structured.
 
+2. The main table needed some cleaning. 
 
-Standardizing Data: 
+- Identified and removed duplicate records using the ROW_NUMBER() OVER(PARTITION BY ...) window function, focusing on the ID column, 
+which served as the primary key.
 
--- Noticed that the State_Name column had some grammatical and capitalization errors. Used the UPDATE clause. 
--- Checked for blank values and updated it with the correct correct county and city. 
--- Worked on the Type column in order to identify possible types that are the same. 
--- Check for Awater and ALand columns to identify if it was 0 or NULL values. 
+- Eliminated any unnecessary or redundant duplicates.
 
 
 Exploratory Data Analysis: 
 
--- The 2 biggest lands are Alaska and Texas 
--- Alaska has the biggest area of water followed by Texas
--- Found the top 10 States by land
--- Found the top 10 States by water
+- Corrected grammatical and capitalization issues in the State_Name column using the UPDATE statement.
 
--- Found the top 10 States with the highest household income, District of Columbia being number one on the list. 
--- Found the lowest 5 States with the lowest income, Puerto Rico being number one on the list. 
--- Municipality has the higest average salary
--- Urban and Community areas were the lowest average salary.
--- CDP areas have an average US Household Income of $116,376 dollars. 
--- City of Delta Junction in the State of Alaska brings an average income of $242,857 dollars. 
+- Addressed missing values by populating them with the correct county and city names.
+
+- Standardized the Type column by reviewing and consolidating inconsistent naming conventions.
+Inspected the ALand (Land Area) and AWater (Water Area) columns for 0 or NULL values to ensure completeness and accuracy.
+Exploratory Data Analysis (EDA)
+Alaska and Texas have the largest land areas, with Alaska also having the most extensive water area.
+Identified the Top 10 states by land area and Top 10 by water area.
+Ranked the Top 10 states by household income, with the District of Columbia leading the list.
+Listed the Bottom 5 states by household income, with Puerto Rico ranking the lowest.
+Municipalities recorded the highest average household income, while Urban and Community areas showed the lowest averages.
+Census Designated Places (CDPs) had an average U.S. household income of $116,376.
+The City of Delta Junction in Alaska reported the highest average household income at $242,857.
