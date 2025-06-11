@@ -18,7 +18,11 @@ Once the data was cleaned, I performed the following analyses:
 1. Calculated the Yearly Percentage Change in national debt.
 
 Yearly Percentage Change Screenshot: 
+https://github.com/curlyeje/Elliott_Portfolio/blob/2c1cdd7d13f894b680949a21f0df2be9450bb593/US%20Debt%20Excel%20Project/Yearly%20Percentage%20Change.png
+
 2. Created Monthly Historical Trends using Pivot Tables.
+
+
 3. Used the FORECAST function to project future debt trends.
 
 Key Findings:
