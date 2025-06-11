@@ -34,7 +34,7 @@ Calls Per Day (Sheet 5): Tracked daily call totals along with average call durat
 
 Resolution Rate by Agent (Sheet 6): Highlighted agents Dan, Diane, and Joe as having the lowest resolution rates.
 
-Resolution Rate by Agent Screenshot: 
+Resolution Rate by Agent Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/0cae7fa265d8823dcb4f5809e53fd3437e590290/Tableau%20Monthly%20KPI%20Dashboard/Resolution%20Rates%20by%20Agent.png
 
 Resolved Calls by Agent (Sheet 7): Indicated that Dan and Joe resolved the fewest calls.
 
