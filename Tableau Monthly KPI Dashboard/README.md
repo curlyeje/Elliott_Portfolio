@@ -16,7 +16,7 @@ Hour of Call Column Calculated Field Screenshot: https://github.com/curlyeje/Ell
 
 3. Calculated an Average Duration (in seconds) column to track how long agents were on calls with customers.
 
-Average Duration in Seconds Calculated Field Screenshot: 
+Average Duration in Seconds Calculated Field Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/9f40ef6c7b6253c35a55ab8d329c9ca64ea3075b/Tableau%20Monthly%20KPI%20Dashboard/Average%20Talk%20Duration%20Seconds.png
 
 Exploratory Data Analysis & Visualizations:
 
