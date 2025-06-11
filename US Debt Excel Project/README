@@ -4,10 +4,14 @@ Data Preparation:
 The raw dataset required several cleaning steps to ensure accuracy and usability:
 
 Raw Data Screenshot: 
+https://github.com/curlyeje/Elliott_Portfolio/blob/cf69231ed4aa66496756240cc5c3bfc911e5e4d6/US%20Debt%20Excel%20Project/Raw%20Data.png
 
-Transposed the data to align rows and columns correctly for analysis.
-Converted scientific notation into standard number formats to accurately reflect the figures in each column.
-Analysis Steps:
+1. Transposed the data to align rows and columns correctly for analysis.
+2. Converted scientific notation into standard number formats to accurately reflect the figures in each column.
+
+Cleaned Data Screenshot: 
+
+Exploratory Data Analysis (EDA):
 Once the data was cleaned, I performed the following analyses:
 
 Calculated the Yearly Percentage Change in national debt.
