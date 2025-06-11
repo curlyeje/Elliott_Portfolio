@@ -25,7 +25,7 @@ Call Volume by Weekday Screenshot: https://github.com/curlyeje/Elliott_Portfolio
 
 Call Volume by Hour (Sheet 3): Identified peak call times, which occurred around 10 AM, 1 PM, 3 PM, 4 PM, and 5 PM.
 
-Call Volume by Hour Screenshot: 
+Call Volume by Hour Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/f6ffa3fd114466035fabe1fc995e0a55e23951a1/Tableau%20Monthly%20KPI%20Dashboard/Call%20Volume%20During%20Day.png
 
 
 Resolution Rate (Sheet 4): Showed the percentage of calls resolved during the current month.
