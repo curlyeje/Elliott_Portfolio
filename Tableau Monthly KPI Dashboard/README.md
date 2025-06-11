@@ -15,7 +15,7 @@ Exploratory Data Analysis & Visualizations:
 
 Satisfaction Rating (Sheet 1): Displayed customer satisfaction ratings (scale of 0–5). The most common ratings were 3, 4, and 5, with rating 3 being the most frequent (392 responses).
 
-Satisfaction Rating Screenshot: 
+Satisfaction Rating Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/99968b4fba00af7d27de07b86487186d2c0a48a2/Tableau%20Monthly%20KPI%20Dashboard/Satisfaction%20Rating.png
 
 
 Call Volume by Weekday (Sheet 2): Highlighted that Monday, Tuesday, and Thursday consistently had the highest call volumes, particularly in the most recent month.
