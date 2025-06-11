@@ -42,7 +42,7 @@ Resolved Calls by Agent Screenshot: https://github.com/curlyeje/Elliott_Portfoli
 
 Speed of Answer by Agent (Sheet 8): Showed that Greg, Joe, and Martha had the fastest response times.
 
-Speed of Answer by Agent Screenshot: 
+Speed of Answer by Agent Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/7b40bfc288c3e04b3003b05d1746a501aa093146/Tableau%20Monthly%20KPI%20Dashboard/Speed%20of%20Answer%20by%20Agent.png
 
 A comprehensive dashboard was built to present these insights in an interactive and visually engaging format for the manager to monitor team performance and operational trends effectively.
 
