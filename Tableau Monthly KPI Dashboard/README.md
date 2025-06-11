@@ -8,8 +8,15 @@ The Monthly KPI Dashboard was developed using Tableau to help a Call Center Mana
 Data Preparation:
 
 1. Converted the Date column from string to date format for accurate time-based analysis.
+
+  
 2. Created a new Hour of Call column to identify peak call times throughout the day.
+
+Hour of Call Column Calculated Field Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/7283a37be8ef26287f739eb5df67cd84253a33e9/Tableau%20Monthly%20KPI%20Dashboard/Hour%20of%20Call%20Column.png
+
 3. Calculated an Average Duration (in seconds) column to track how long agents were on calls with customers.
+
+Average Duration in Seconds Calculated Field Screenshot: 
 
 Exploratory Data Analysis & Visualizations:
 
