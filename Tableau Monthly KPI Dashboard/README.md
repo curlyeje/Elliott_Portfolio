@@ -30,11 +30,20 @@ Call Volume by Hour Screenshot: https://github.com/curlyeje/Elliott_Portfolio/bl
 
 Resolution Rate (Sheet 4): Showed the percentage of calls resolved during the current month.
 
-Resolution Rate Screenshot: 
-
-
 Calls Per Day (Sheet 5): Tracked daily call totals along with average call durations.
+
 Resolution Rate by Agent (Sheet 6): Highlighted agents Dan, Diane, and Joe as having the lowest resolution rates.
+
+Resolution Rate by Agent Screenshot: 
+
 Resolved Calls by Agent (Sheet 7): Indicated that Dan and Joe resolved the fewest calls.
+
+Resolved Calls by Agent Screenshot: 
+
 Speed of Answer by Agent (Sheet 8): Showed that Greg, Joe, and Martha had the fastest response times.
+
+Speed of Answer by Agent Screenshot: 
+
 A comprehensive dashboard was built to present these insights in an interactive and visually engaging format for the manager to monitor team performance and operational trends effectively.
+
+Dashboard Screenshot: 
