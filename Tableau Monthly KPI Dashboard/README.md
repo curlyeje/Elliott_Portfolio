@@ -46,4 +46,4 @@ Speed of Answer by Agent Screenshot: https://github.com/curlyeje/Elliott_Portfol
 
 A comprehensive dashboard was built to present these insights in an interactive and visually engaging format for the manager to monitor team performance and operational trends effectively.
 
-Dashboard Screenshot: 
+Dashboard Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/064adf74e030cebd77a6c6e3daeb8450e2e9b5d0/Tableau%20Monthly%20KPI%20Dashboard/Dashboard%201.png
