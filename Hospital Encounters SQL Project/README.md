@@ -1,6 +1,9 @@
 -- This dataset was taken from data.gov and was inputted from the State of California. Contains counts of inpatient 
 -- hospitalizations and emergency department visits for patients with Behavioral Health Disorders.
 
+Explore my Tableau project on hospital encounters by clicking the link below: 
+https://public.tableau.com/app/profile/elliott.earley/viz/HospitalEncountersProject/Dashboard1#2
+
 -- count refers to the Total Mental Health inpatient hospitalization discharges or emergency department visits per demographic category value.
 
 -- total refers to the Total inpatient hospitalization discharges or emergency department visits per demographic category value.
