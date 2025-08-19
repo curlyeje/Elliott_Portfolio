@@ -15,28 +15,28 @@ JOIN Clause Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/9affa
 
 Visualizations & Insights
 
-Sheet 1: Average Price by Zip Code - This view analyzed Airbnb prices by zip code to identify pricing trends.
+Sheet 1: Average Price per Zip Code - This view analyzed Airbnb prices by zip code to identify pricing trends.
 Notably, Zip Code 98134 had an average nightly rate of $206.
 
-Price By ZipCode Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/b2932cfec3dfb1fa7b353e39731fe46c9c68b105/Tableau%20AirBnB%20Project/Price%20By%20ZipCode.png
+Price per ZipCode Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/b2932cfec3dfb1fa7b353e39731fe46c9c68b105/Tableau%20AirBnB%20Project/Price%20By%20ZipCode.png
 
-Sheet 2: Price Distribution Map - A map visualization was created using latitude and longitude data to show geographic differences in average pricing by zip code.
-
-Price per ZipCode Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/1b1e430f95a7f143420a5ecfdfc2abd95fe8dcb7/Tableau%20AirBnB%20Project/Price%20per%20ZipCode.png
-
-
-Sheet 3: Best Months to Rent - This sheet evaluated seasonal trends and highlighted the most profitable months to list the property.
+Sheet 2: Best Months to Rent Property on AirBnB - This sheet evaluated seasonal trends and highlighted the most profitable months to list the property.
 An average line was added to provide a benchmark for comparison.
 
-Best Months to Rent Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/5fe806b75145513489cfc15c1616f6459fd904d5/Tableau%20AirBnB%20Project/Best%20Months%20to%20Rent%20Out%20Property.png
+Best Months to Rent Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/5fe806b75145513489cfc15c1616f6459fd904d5/Tableau%20AirBnB%20Project/Best%20Months%20to%20Rent%20Out%20Property.png 
 
 
-Sheet 4: Average Price per Bedroom - This analysis broke down pricing by bedroom count, offering targeted insight into 3-bedroom homes, which aligned with my friend's investment criteria.
+Sheet 3: Average Price per Bedroom - This analysis broke down pricing by bedroom count, offering targeted insight into 3-bedroom homes, which aligned with my friend's investment criteria.
 
 Average Price per Bedroom Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/08d31cc20a339fd3fe727ff10acabfae4c25873f/Tableau%20AirBnB%20Project/Average%20Price%20per%20Bedroom.png
 
 
-Sheet 5: Bedroom Listing Volume - This visualization revealed the number of listings per bedroom count, helping my friend assess market competition in the 3-bedroom category.
+
+Sheet 3: Average Price per Bedroom - This analysis broke down pricing by bedroom count, offering targeted insight into 3-bedroom homes, which aligned with my friend's investment criteria.
+
+Average Price per Bedroom Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/08d31cc20a339fd3fe727ff10acabfae4c25873f/Tableau%20AirBnB%20Project/Average%20Price%20per%20Bedroom.png
+
+Sheet 4: Bedroom Listing Volume - This visualization revealed the number of listings per bedroom count, helping my friend assess market competition in the 3-bedroom category.
 
 Bedroom Listing Volume Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/c5b8576b1b10a6afda4977b0f9afb28a5455f7db/Tableau%20AirBnB%20Project/Number%20of%20Bedroom%20Listings.png
 
