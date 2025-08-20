@@ -2,8 +2,6 @@ The World Life Expectancy Project was completed in MYSQL Workbench. The data con
 population whom life expectancy fluctuates depending on key factors such as BMI, Diseases, Adult Mortality, etc... Data was collected 
 from 2007 all the way up to 2022.
 
-Here is my final visualization of this project using Tableau: 
-https://public.tableau.com/app/profile/elliott.earley/viz/WorldLifeExpectancyProject_17556279430760/Dashboard1
 
 Data Cleaning Steps: 
 
