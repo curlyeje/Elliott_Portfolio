@@ -75,12 +75,11 @@ ORDER BY times_prescribed DESC;
 
 **Most used CPT codes:**
 ```sql
-SELECT b.code, b.code_text, COUNT(*) AS usage_count
-FROM billing b
-WHERE b.code_type IN ('CPT','CPT4') AND b.activity = 1
-GROUP BY b.code, b.code_text
-ORDER BY usage_count DESC
-LIMIT 10;
+SELECT code, COUNT(*) AS usage_count
+FROM billing 
+WHERE code_type = 'CPT4'
+GROUP BY code
+ORDER BY usage_count DESC;
 ```
 
 ### 5. Dashboard
