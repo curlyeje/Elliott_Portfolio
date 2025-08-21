@@ -64,7 +64,6 @@ All visualizations were consolidated into an **interactive Tableau dashboard** t
 This dashboard empowered the client to weigh profitability, competition, and seasonality when considering the purchase of a 3-bedroom property.  
 
 📊 *Final Dashboard Screenshot:*  
-[View Dashboard]
 <img width="2400" height="1108" alt="Seattle Airbnb Insights Dashboard" src="https://github.com/user-attachments/assets/1af0613d-44c3-490a-af55-ca9ae678fc11" />
 
 
