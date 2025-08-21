@@ -58,11 +58,11 @@ GROUP BY pc_aid
 
 **Encounters per month:**
 ```sql
-SELECT DATE_FORMAT(fe.date, '%Y-%m') AS year_month,
-       COUNT(*) AS encounters
-FROM form_encounter fe
-GROUP BY year_month
-ORDER BY year_month;
+SELECT DATE_FORMAT(date,'%Y-%m') AS month,
+       COUNT(*) AS encounter_count
+FROM form_encounter 
+GROUP BY month
+ORDER BY month;
 ```
 
 **Top 10 prescribed drugs:**
