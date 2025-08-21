@@ -20,8 +20,6 @@ I worked with three main tables:
 
 A **JOIN operation** was performed to combine the **Listings** and **Calendar** tables using their primary key. This enriched the dataset with both property details and calendar availability, enabling deeper insights.  
 
-📊 *JOIN Clause Screenshot:*  
-[View JOIN Clause](https://github.com/curlyeje/Elliott_Portfolio/blob/9affa40f64994cec801a95410d640232edbc9d25/Tableau%20AirBnB%20Project/JOIN%20Clause.png)
 
 ---
 
