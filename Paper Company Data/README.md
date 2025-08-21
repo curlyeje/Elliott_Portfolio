@@ -12,7 +12,8 @@ Exploratory Data Analysis & Dashboard Story:
 
 Slide 1: Profitability by Product Category: Products in the Office Accessories & Organization category had the highest overall sales volume, outperforming all other categories.
 
-Slide 1 Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/fb1dea975f9c41f99ca424e668b32cf3ae315fa5/Paper%20Company%20Data/1st%20Slide.png
+Slide 1 Screenshot: 
+<img width="2198" height="1926" alt="Story 1" src="https://github.com/user-attachments/assets/7537308b-c781-42e1-ae03-187587117a4b" />
 
 Slide 2: Deep Dive into Printing & Technology : The Printing and Technology category showed a notable 64.5% increase in profit over four years, while other categories remained relatively flat.
 
