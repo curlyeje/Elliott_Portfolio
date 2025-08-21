@@ -29,12 +29,14 @@ This project demonstrates how I installed and configured **OpenEMR**, populated 
 - Produced patient statements for balances.
 
 ### 4. SQL Queries
-**Patient count:**
-```sql
-SELECT COUNT(DISTINCT pid) FROM patient_data;
+Patient count:
+
+SELECT sex, COUNT(*) as count
+FROM patient_data
+GROUP BY sex;
 ```
 
-**Age distribution:**
+Age distribution:
 ```sql
 SELECT CASE
   WHEN TIMESTAMPDIFF(YEAR, DOB, CURDATE()) < 18 THEN '<18'
