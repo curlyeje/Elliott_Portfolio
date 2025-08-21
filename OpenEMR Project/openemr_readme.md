@@ -93,12 +93,12 @@ LEFT JOIN ar_activity a ON a-pid = pd.pid AND a. encounter = b.encounter GROUP B
 
 ### 5. Dashboard - [Click here to view dashboard](https://public.tableau.com/app/profile/elliott.earley/viz/OpenemrDashboard/Dashboard1)
 
-I connected Tableau/Power BI to the MySQL database and built:
+I connected Tableau to the MySQL database and built:
 - **KPIs:** Total patients, encounters YTD.
-- **Age distribution:** Bar chart by age bucket.
+- **Age distribution:** Pie Chart by age groups.
 - **Appointments by provider:** Ranking of workload.
 - **Encounters trend:** Monthly line chart.
-- **Top medications:** Top 10 prescribed.
+- **Top medications:** Bar chart.
 - **Top CPT codes:** Most frequently billed.
 - **Outstanding Balances by Patient:** Scatterplot Chart.
 
