@@ -18,27 +18,29 @@ Visualizations & Insights
 Sheet 1: Average Price per Zip Code - This view analyzed Airbnb prices by zip code to identify pricing trends.
 Notably, Zip Code 98134 had an average nightly rate of $206.
 
-Price per ZipCode Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/b2932cfec3dfb1fa7b353e39731fe46c9c68b105/Tableau%20AirBnB%20Project/Price%20By%20ZipCode.png
+Price per ZipCode Screenshot: 
+<img width="1704" height="1052" alt="Price Per Zip Code" src="https://github.com/user-attachments/assets/6ab5c127-fb3c-4708-b8e4-d7c36cc5bf75" />
+
 
 Sheet 2: Best Months to Rent Property on AirBnB - This sheet evaluated seasonal trends and highlighted the most profitable months to list the property.
 An average line was added to provide a benchmark for comparison.
 
-Best Months to Rent Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/5fe806b75145513489cfc15c1616f6459fd904d5/Tableau%20AirBnB%20Project/Best%20Months%20to%20Rent%20Out%20Property.png 
-
-
-Sheet 3: Average Price per Bedroom - This analysis broke down pricing by bedroom count, offering targeted insight into 3-bedroom homes, which aligned with my friend's investment criteria.
-
-Average Price per Bedroom Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/08d31cc20a339fd3fe727ff10acabfae4c25873f/Tableau%20AirBnB%20Project/Average%20Price%20per%20Bedroom.png
+Best Months to Rent Screenshot: 
+<img width="1868" height="1050" alt="Best Months to Rent out Property" src="https://github.com/user-attachments/assets/1ae30ef9-7781-48dd-8eae-ae6c0740baec" />
 
 
 
 Sheet 3: Average Price per Bedroom - This analysis broke down pricing by bedroom count, offering targeted insight into 3-bedroom homes, which aligned with my friend's investment criteria.
 
-Average Price per Bedroom Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/08d31cc20a339fd3fe727ff10acabfae4c25873f/Tableau%20AirBnB%20Project/Average%20Price%20per%20Bedroom.png
+Average Price per Bedroom Screenshot: 
+<img width="1400" height="1050" alt="Average Price per Bedroom" src="https://github.com/user-attachments/assets/a2e25f53-d5c5-4281-bfe9-3e234f38d564" />
+
 
 Sheet 4: Bedroom Listing Volume - This visualization revealed the number of listings per bedroom count, helping my friend assess market competition in the 3-bedroom category.
 
-Bedroom Listing Volume Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/c5b8576b1b10a6afda4977b0f9afb28a5455f7db/Tableau%20AirBnB%20Project/Number%20of%20Bedroom%20Listings.png
+Bedroom Listing Volume Screenshot: 
+<img width="588" height="486" alt="Number of Bedroom Listings" src="https://github.com/user-attachments/assets/446a9451-6771-430d-b1b7-52e3bdcba4c1" />
+
 
 
 Final Dashboard - All visualizations were compiled into an interactive dashboard to present a clear, data-driven summary of insights. This tool empowered my friend to evaluate the Seattle Airbnb market and make a more strategic investment decision.
