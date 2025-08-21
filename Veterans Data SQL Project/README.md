@@ -84,7 +84,9 @@ WHERE ROUND((number_of_va_in_health_care / veteran_population) * 100, 0) != vete
  # 1. How has the percentage of veterans using VA health care changed over time?
 -- In the years of 2010 - 2015, the change was approximately a 526 percentage points of increase on veterans using VA health care over this period of time. 
 
--- Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/2f731e2e1e7cb876f2327c644f465800cbe788ad/Veterans%20Data%20SQL%20Project/Question%20%23%201%20Answer%20Part%201.png
+-- Screenshot: 
+<img width="1704" height="1050" alt="Total Amount of VA per State" src="https://github.com/user-attachments/assets/346485a1-4000-4d10-8a0b-7b701184c6d5" />
+
 
 SELECT year, ROUND(AVG(veterans_va_percentage) * 100, 0) AS avg_va_usage_percent
 FROM veterans_who_used_va_health_care_cleaned
@@ -119,7 +121,9 @@ FROM veterans_who_used_va_health_care_cleaned
 GROUP BY state_name
 ORDER BY highest_percentage DESC;
 
--- Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/db3f10ea56128150e43b1584b2a32bdd1fe66a95/Veterans%20Data%20SQL%20Project/Question%20%23%202%20Answer%20Part%201.png 
+-- Screenshot: 
+<img width="1854" height="1042" alt="VA Health Care Usage Rates by State" src="https://github.com/user-attachments/assets/bcf184aa-e81b-44e7-a3a9-a12da3e421f7" />
+
 
 SELECT state_name, MIN(veterans_va_percentage) AS lowest_percentage,
   DENSE_RANK() OVER (ORDER BY MIN(veterans_va_percentage) ASC
@@ -142,7 +146,9 @@ FROM veterans_who_used_va_health_care_cleaned
 GROUP BY state_name, year
 ORDER BY state_name, year;
 
--- Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/0edd74fcac0edd3787d7b63ea290a8e4369ca735/Veterans%20Data%20SQL%20Project/Question%20%23%203%20Answer.png
+-- Screenshot: 
+<img width="1156" height="1050" alt="Veteran Population Over Time" src="https://github.com/user-attachments/assets/ac7f44eb-7ef5-486a-ab55-83a126a1f1d2" />
+
 
 # 4. Which states experienced the largest increase in VA health care usage from 2010 to the most recent year? 
 
@@ -153,7 +159,9 @@ FROM veterans_who_used_va_health_care_cleaned
 GROUP BY state_name
 ORDER BY largest_increase DESC ;
 
--- Screenshot: https://github.com/curlyeje/Elliott_Portfolio/blob/4472cd92b19cfbb2b37ed5253f573b6c76beaff4/Veterans%20Data%20SQL%20Project/Question%20%23%204%20Answer.png
+-- Screenshot: 
+<img width="2004" height="1046" alt="Total Veteran Population" src="https://github.com/user-attachments/assets/a3dbc0c4-77d9-4d2e-813d-8d5701f70694" />
+
 
 # 5. Which states have the most efficient VA outreach (high percentage use with relatively small veteran populations)?
 
