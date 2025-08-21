@@ -29,14 +29,14 @@ This project demonstrates how I installed and configured **OpenEMR**, populated 
 - Produced patient statements for balances.
 
 ### 4. SQL Queries
-Patient count:
+**Patient count:**
 ```sql
 SELECT sex, COUNT(*) as count
 FROM patient_data
 GROUP BY sex;
 ```
 
-Age distribution:
+**Age distribution:**
 ```sql
 SELECT CASE
   WHEN TIMESTAMPDIFF(YEAR, DOB, '2025-08-20') < 18 THEN 'Under 18'
@@ -50,12 +50,10 @@ GROUP BY age_group;
 
 **Appointments by provider:**
 ```sql
-SELECT u.id, CONCAT(u.fname, ' ', u.lname) AS provider,
-       COUNT(*) AS appt_count
-FROM openemr_postcalendar_events e
-JOIN users u ON u.id = e.pc_aid
-GROUP BY u.id, provider
-ORDER BY appt_count DESC;
+SELECT pc_aid AS provider_id, COUNT(*) AS appt_count
+FROM openemr_postcalendar_events 
+GROUP BY pc_aid
+
 ```
 
 **Encounters per month:**
