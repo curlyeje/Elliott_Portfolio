@@ -65,13 +65,12 @@ GROUP BY month
 ORDER BY month;
 ```
 
-**Top 10 prescribed drugs:**
+**Top prescribed drugs:**
 ```sql
-SELECT TRIM(drug), COUNT(*) AS prescriptions_count
+SELECT drug, COUNT(*) AS times_prescribed
 FROM prescriptions
-GROUP BY TRIM(drug)
-ORDER BY prescriptions_count DESC
-LIMIT 10;
+GROUP BY drug
+ORDER BY times_prescribed DESC;
 ```
 
 **Most used CPT codes:**
