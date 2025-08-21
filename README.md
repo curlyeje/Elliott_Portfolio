@@ -29,7 +29,7 @@ A **JOIN** operation was performed between *Listings* and *Calendar* to enrich t
 Analyzed nightly Airbnb prices by zip code.  
 - Notable finding: **Zip Code 98134** had an average nightly rate of **$206**.
 
-![Price per Zip Code](https://github.com/curlyeje/Elliott_Portfolio/blob/b2932cfec3dfb1fa7b353e39731fe46c9c68b105/Tableau%20AirBnB%20Project/Price%20By%20ZipCode.png)
+(https://public.tableau.com/authoring/AirBnbProject_17174361122020/Sheet2#1)
 
 ---
 
