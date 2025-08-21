@@ -82,6 +82,15 @@ GROUP BY code
 ORDER BY usage_count DESC;
 ```
 
+**Outstanding Balances by Patient:**
+```sql
+SELECT pd.pid, pd.fname, pd.lname,
+SUM (b. fee-IFNULL(a-pay_amount, 0)) AS balance
+FROM patient_data pd
+JOIN billing b ON b.pid = pd. pid
+LEFT JOIN ar_activity a ON a-pid = pd.pid AND a. encounter = b.encounter GROUP BY pd-pid HAVING balance > 0;
+```
+
 ### 5. Dashboard
 I connected Tableau/Power BI to the MySQL database and built:
 - **KPIs:** Total patients, encounters YTD.
@@ -90,6 +99,7 @@ I connected Tableau/Power BI to the MySQL database and built:
 - **Encounters trend:** Monthly line chart.
 - **Top medications:** Top 10 prescribed.
 - **Top CPT codes:** Most frequently billed.
+- **Outstanding Balances by Patient:** Scatterplot Chart.
 
 ---
 
