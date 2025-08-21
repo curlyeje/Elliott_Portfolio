@@ -91,7 +91,8 @@ JOIN billing b ON b.pid = pd. pid
 LEFT JOIN ar_activity a ON a-pid = pd.pid AND a. encounter = b.encounter GROUP BY pd-pid HAVING balance > 0;
 ```
 
-### 5. Dashboard
+### 5. Dashboard - [Click here to view dashboard](https://public.tableau.com/app/profile/elliott.earley/viz/OpenemrDashboard/Dashboard1)
+
 I connected Tableau/Power BI to the MySQL database and built:
 - **KPIs:** Total patients, encounters YTD.
 - **Age distribution:** Bar chart by age bucket.
