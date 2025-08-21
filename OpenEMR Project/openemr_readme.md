@@ -30,7 +30,7 @@ This project demonstrates how I installed and configured **OpenEMR**, populated 
 
 ### 4. SQL Queries
 Patient count:
-
+```sql
 SELECT sex, COUNT(*) as count
 FROM patient_data
 GROUP BY sex;
