@@ -5,8 +5,8 @@ annual data from 2010 to 2015 on the utilization of VA health services
 across all U.S. states.
 
 Each record includes: - State name
-- Total veteran population\
-- Number of veterans who used VA health care\
+- Total veteran population
+- Number of veterans who used VA health care
 - Percentage of veterans utilizing these services
 
 On average, about **27.6% of veterans** in each state used VA health
@@ -50,24 +50,24 @@ calculations.
 ## Exploratory Data Analysis (EDA) Highlights
 
 1.  VA health care usage increased by **over 5 percentage points**
-    between 2010 and 2015.\
+    between 2010 and 2015.
 2.  **Puerto Rico** had the highest VA usage rate (54%), while
-    **Hawaii** had the lowest (16%).\
+    **Hawaii** had the lowest (16%).
 3.  Veteran populations generally **decreased over time**, possibly due
-    to geographic or systemic barriers.\
+    to geographic or systemic barriers.
 4.  **Florida, California, and Texas** saw the largest increases in VA
-    patients.\
+    patients.
 5.  Smaller states like **Puerto Rico, South Dakota, and Wyoming**
-    showed highly efficient VA outreach.\
+    showed highly efficient VA outreach.
 6.  The **national average** of veterans using VA health care peaked in
-    2015.\
-7.  **Total veteran population (2010--2015): \~130 million.**\
-8.  **Total VA patients (2010--2015): \~40 million.**\
-9.  **California, Texas, and Florida** had the largest veteran
-    populations.\
-10. **Florida** had the highest number of VA patients in 2015, while
-    **D.C.** had the lowest.\
-11. **Puerto Rico** had the highest veteran VA usage percentage in 2015.
+    2015.
+9.  **Total veteran population (2010--2015): \~130 million.**\
+10.  **Total VA patients (2010--2015): \~40 million.**\
+11.  **California, Texas, and Florida** had the largest veteran
+    populations.
+12. **Florida** had the highest number of VA patients in 2015, while
+    **D.C.** had the lowest.
+13. **Puerto Rico** had the highest veteran VA usage percentage in 2015.
 
 ------------------------------------------------------------------------
 
