@@ -11,6 +11,9 @@ demographic patterns.
 
 📊 [View the Dashboard](https://public.tableau.com/app/profile/elliott.earley/viz/USHouseholdIncomeProject/Dashboard1#1)
 
+<img width="1998" height="1598" alt="Dashboard 1" src="https://github.com/user-attachments/assets/12e55c92-7a20-43ba-bf84-c9f3cd12d554" />
+
+
 ------------------------------------------------------------------------
 
 ## Data Cleaning Process
