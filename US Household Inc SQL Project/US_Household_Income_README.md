@@ -38,7 +38,7 @@ WHERE row_num > 1
 ```
         
     -   Removed unnecessary or redundant entries to maintain dataset
-        integrity.
+        integrity./
 ```sql
 DELETE FROM us_household_income_cleaned
 WHERE row_id IN (
