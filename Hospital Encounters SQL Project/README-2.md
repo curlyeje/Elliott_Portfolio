@@ -44,7 +44,10 @@ UPDATE hospital_encounters_for_behavioral_health_cleaned
 - Hospital encounters increased significantly between **2020–2022**.  
 - SQL used a rolling total window function.  
 
-📸 [View Result](https://github.com/curlyeje/Elliott_Portfolio/blob/3068d39e5463b4e99f0a4652f84c77eb4760c4e2/Hospital%20Encounters%20SQL%20Project/Question%20%23%201%20Answer.png)  
+📸 [View Result]
+
+<img width="269" height="78" alt="Question # 1 Answer" src="https://github.com/user-attachments/assets/5bd55151-6d1e-4143-a9db-bef967808162" />
+
 
 ---
 
