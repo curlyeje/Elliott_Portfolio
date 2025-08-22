@@ -57,6 +57,10 @@ WHERE row_num > 1)
         standardized capitalization with the `UPDATE` statement.
     -   **Missing Values**: Populated missing county and city names
         using cross-referenced data.
+    -   **Type Column**: Standardized inconsistent naming conventions
+        for income categories.
+    -   **ALand (Land Area) & AWater (Water Area)**: Inspected for `0`
+        or `NULL` values, ensuring complete and reliable entries.
 ```sql
 UPDATE us_household_income_cleaned
 SET State_Name = 'Georgia'
@@ -72,17 +76,12 @@ AND City = 'Vinemont'
 ;
 ```
   
-    -   **Type Column**: Standardized inconsistent naming conventions
-        for income categories.
 ```sql
 UPDATE us_household_income_cleaned
 SET Type = 'Borough'
 WHERE Type = 'Boroughs'
 ;
 ```
-  
-    -   **ALand (Land Area) & AWater (Water Area)**: Inspected for `0`
-        or `NULL` values, ensuring complete and reliable entries.
 
   ```sql
 SELECT DISTINCT Awater, Aland
