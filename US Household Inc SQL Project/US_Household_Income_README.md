@@ -28,7 +28,7 @@ steps were performed:
     -   Removed unnecessary or redundant entries to maintain dataset
         integrity.
 
-       ``` DELETE FROM us_household_income_cleaned
+       sql``` DELETE FROM us_household_income_cleaned
 WHERE row_id IN (
 		SELECT row_id 
 		FROM (
@@ -38,7 +38,9 @@ WHERE row_id IN (
 		FROM us_household_income_cleaned
 		) AS duplicates
 WHERE row_num > 1)
-;```
+;
+
+```
 3.  **Column Adjustments**
     -   **State_Name**: Corrected grammatical inconsistencies and
         standardized capitalization with the `UPDATE` statement.\
