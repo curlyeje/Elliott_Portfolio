@@ -21,6 +21,9 @@ interactive dashboard.\
 🔗 [View the
 Dashboard](https://public.tableau.com/app/profile/elliott.earley/viz/WorldLifeExpectancyProject_17556279430760/Dashboard1)
 
+<img width="1998" height="1598" alt="Dashboard 1-2" src="https://github.com/user-attachments/assets/912fe576-4516-465b-b4f7-d469fb2fb8d5" />
+
+
 ------------------------------------------------------------------------
 
 ## Data Cleaning Process
@@ -54,6 +57,9 @@ life expectancy across nations. Key findings include:
     -   Some countries showed dramatic improvements; for example,
         **Haiti, Zimbabwe, and Eritrea** experienced increases of **20+
         years** in life expectancy.
+
+        <img width="2006" height="1050" alt="Country-Level Life Expectancy_ Highest vs  Lowest" src="https://github.com/user-attachments/assets/2bdb8f17-5a32-4097-a23c-26825964a153" />
+
 2.  **Economic Correlations**
     -   Countries with **lower GDP** generally had **lower life
         expectancy**.\
@@ -62,11 +68,18 @@ life expectancy across nations. Key findings include:
     -   On average:
         -   **High GDP countries** → Life expectancy \~ **74 years**\
         -   **Low GDP countries** → Life expectancy \~ **65 years**
+     
+<img width="1850" height="1048" alt="Average Life Expectancy by GDP" src="https://github.com/user-attachments/assets/64a307d9-dab6-4388-a8f6-77a1ed2ddd83" />
+
+    
 3.  **Development Status Insights**
     -   The dataset revealed **161 developing countries** versus **32
         developed countries**.\
     -   Developing countries consistently lagged behind in life
         expectancy compared to developed nations.
+
+        <img width="1068" height="1106" alt="Average Life Expectancy by Development Status" src="https://github.com/user-attachments/assets/15a61259-7de3-4d7e-b3a8-41e020413027" />
+
 4.  **Impact of Health Factors**
     -   **BMI (Body Mass Index)** showed noticeable correlation patterns
         when compared to life expectancy.\
@@ -74,6 +87,9 @@ life expectancy across nations. Key findings include:
         health systems and challenges. For example:
         -   The **United States of America** reported a **rolling total
             of 931 adult mortalities** from 2007--2022.
+
+            <img width="2006" height="1050" alt="Life Expectancy vs Adult Mortality and BMI" src="https://github.com/user-attachments/assets/1c64fbd7-32e9-473b-8f9b-10cf5352d3b1" />
+
 
 ------------------------------------------------------------------------
 
