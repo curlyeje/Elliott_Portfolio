@@ -24,7 +24,19 @@ steps were performed:
 2.  **Main Household Income Table**
     -   **Duplicate Records**: Identified duplicates using the
         `ROW_NUMBER() OVER(PARTITION BY ...)` window function,
-        leveraging the `ID` column (primary key).\
+        leveraging the `ID` column (primary key).
+```sql
+SELECT * 
+FROM (
+SELECT row_id, 
+id, 
+ROW_NUMBER() OVER(PARTITION BY id ORDER BY id) AS row_num
+FROM us_household_income_cleaned
+) AS duplicates
+WHERE row_num > 1
+;
+```
+        
     -   Removed unnecessary or redundant entries to maintain dataset
         integrity.
 ```sql
@@ -42,13 +54,43 @@ WHERE row_num > 1)
 ```
 3.  **Column Adjustments**
     -   **State_Name**: Corrected grammatical inconsistencies and
-        standardized capitalization with the `UPDATE` statement.\
+        standardized capitalization with the `UPDATE` statement.
+```sql
+UPDATE us_household_income_cleaned
+SET State_Name = 'Georgia'
+WHERE State_Name = 'georia'
+;
+```
+
     -   **Missing Values**: Populated missing county and city names
-        using cross-referenced data.\
+        using cross-referenced data.
+
+```sql
+UPDATE us_household_income_cleaned
+SET Place = 'Autaugaville'
+WHERE County = 'Autauga County'
+AND City = 'Vinemont'
+;
+```
+  
     -   **Type Column**: Standardized inconsistent naming conventions
-        for income categories.\
+        for income categories.
+```sql
+UPDATE us_household_income_cleaned
+SET Type = 'Borough'
+WHERE Type = 'Boroughs'
+;
+```
+  
     -   **ALand (Land Area) & AWater (Water Area)**: Inspected for `0`
         or `NULL` values, ensuring complete and reliable entries.
+
+  ```sql
+SELECT DISTINCT Awater, Aland
+FROM us_household_income_cleaned
+WHERE Aland = 0 OR Aland = ''  OR Aland IS NULL
+;
+```
 
 ------------------------------------------------------------------------
 
@@ -107,9 +149,3 @@ insights. Key findings include:
     exceptionally high income averages, offering unique perspectives on
     localized economic performance.
 
-------------------------------------------------------------------------
-
-## Repository Links
-
--   [SQL Queries & Data Cleaning
-    Steps](https://github.com/curlyeje/Elliott_Portfolio/tree/main/US%20Household%20Income%20SQL%20Project)
