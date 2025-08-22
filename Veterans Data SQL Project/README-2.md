@@ -28,6 +28,9 @@ Tableau.\
 🔗 [View the
 Dashboard](https://public.tableau.com/app/profile/elliott.earley/viz/Veterans_Data_Project/Dashboard1)
 
+<img width="1998" height="1598" alt="Dashboard 1-2" src="https://github.com/user-attachments/assets/6a7e4fc3-6357-49aa-b3d9-e8db99c342f4" />
+
+
 ------------------------------------------------------------------------
 
 ## Data Preparation & Cleaning
@@ -53,21 +56,23 @@ calculations.
     between 2010 and 2015.
 2.  **Puerto Rico** had the highest VA usage rate (54%), while
     **Hawaii** had the lowest (16%).
-3.  Veteran populations generally **decreased over time**, possibly due
+
+    <img width="1156" height="1050" alt="Veteran Population Over Time" src="https://github.com/user-attachments/assets/5c6c9a83-527d-4304-83b0-f91cd9a0f545" />
+
+4.  Veteran populations generally **decreased over time**, possibly due
     to geographic or systemic barriers.
-4.  **Florida, California, and Texas** saw the largest increases in VA
-    patients.
-5.  Smaller states like **Puerto Rico, South Dakota, and Wyoming**
-    showed highly efficient VA outreach.
-6.  The **national average** of veterans using VA health care peaked in
-    2015.
-9.  **Total veteran population (2010--2015): \~130 million.**\
-10.  **Total VA patients (2010--2015): \~40 million.**\
-11.  **California, Texas, and Florida** had the largest veteran
-    populations.
-12. **Florida** had the highest number of VA patients in 2015, while
+
+    <img width="1156" height="1050" alt="Veteran Population Over Time" src="https://github.com/user-attachments/assets/bb448692-2376-460c-834b-c36850eb3512" />
+
+6.  **Florida, California, and Texas** saw the largest increases in VA locations
+
+    <img width="1704" height="1050" alt="Total Amount of VA per State" src="https://github.com/user-attachments/assets/1ba072f5-78d3-4175-9782-a2fad737f4a0" />
+
+10.  **Total veteran population (2010--2015): \~130 million.**\
+11.  **Total VA patients (2010--2015): \~40 million.**\
+13. **Florida** had the highest number of VA patients in 2015, while
     **D.C.** had the lowest.
-13. **Puerto Rico** had the highest veteran VA usage percentage in 2015.
+14. **Puerto Rico** had the highest veteran VA usage percentage in 2015.
 
 ------------------------------------------------------------------------
 
