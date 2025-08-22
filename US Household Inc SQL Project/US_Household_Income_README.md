@@ -25,6 +25,8 @@ steps were performed:
     -   **Duplicate Records**: Identified duplicates using the
         `ROW_NUMBER() OVER(PARTITION BY ...)` window function,
         leveraging the `ID` column (primary key).
+    -   Removed unnecessary or redundant entries to maintain dataset
+        integrity.
 ```sql
 SELECT * 
 FROM (
@@ -37,8 +39,6 @@ WHERE row_num > 1
 ;
 ```
         
-    -   Removed unnecessary or redundant entries to maintain dataset
-        integrity./
 ```sql
 DELETE FROM us_household_income_cleaned
 WHERE row_id IN (
@@ -55,15 +55,14 @@ WHERE row_num > 1)
 3.  **Column Adjustments**
     -   **State_Name**: Corrected grammatical inconsistencies and
         standardized capitalization with the `UPDATE` statement.
+    -   **Missing Values**: Populated missing county and city names
+        using cross-referenced data.
 ```sql
 UPDATE us_household_income_cleaned
 SET State_Name = 'Georgia'
 WHERE State_Name = 'georia'
 ;
 ```
-
-    -   **Missing Values**: Populated missing county and city names
-        using cross-referenced data.
 
 ```sql
 UPDATE us_household_income_cleaned
