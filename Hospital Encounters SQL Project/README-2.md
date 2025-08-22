@@ -7,7 +7,10 @@ The dataset was sourced from **[Data.gov](https://data.gov/)** and prepared for 
 ---
 
 ## 📊 Interactive Dashboard  
-👉 [Click here to view the Tableau Dashboard](https://public.tableau.com/app/profile/elliott.earley/viz/HospitalEncountersProject/Dashboard1#2)  
+👉 [Click here to view the Tableau Dashboard](https://public.tableau.com/app/profile/elliott.earley/viz/HospitalEncountersProject/Dashboard1#2)
+
+<img width="1998" height="1598" alt="Dashboard 1" src="https://github.com/user-attachments/assets/858c3bef-902e-4550-91bc-361204b7bdae" />
+
 
 The dashboard provides an interactive view of hospitalization and emergency department visits for patients with behavioral health disorders across different demographics.  
 
