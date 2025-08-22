@@ -73,7 +73,7 @@ life expectancy across nations. Key findings include:
 
     
 3.  **Development Status Insights**
-    -   The dataset revealed **161 developing countries** versus **32
+    -   The dataset revealed **66.83 developing countries** versus **79.20 developed countries based on the average life expectancy.
         developed countries**.\
     -   Developing countries consistently lagged behind in life
         expectancy compared to developed nations.
