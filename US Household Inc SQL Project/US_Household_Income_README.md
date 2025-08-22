@@ -48,6 +48,12 @@ insights. Key findings include:
     -   **Alaska** also reported the most extensive water area.\
     -   Identified the **Top 10 states by land area** and **Top 10
         states by water area** for geographic distribution analysis.
+
+        <img width="2078" height="1050" alt="Area of Land by State" src="https://github.com/user-attachments/assets/66d0abcf-e1ad-4d01-8941-edf35ad8fa0e" />
+
+        <img width="2582" height="1016" alt="Area of Water by State" src="https://github.com/user-attachments/assets/df597d0f-4070-498e-b2bc-9b6398d8a630" />
+
+
 2.  **Household Income Rankings**
     -   Ranked the **Top 10 states by average household income**:
         -   The **District of Columbia** led with the highest average
@@ -63,6 +69,12 @@ insights. Key findings include:
         household income of **\$116,376**.\
     -   At the city level, **Delta Junction, Alaska** reported the
         **highest average household income at \$242,857**.
+
+        <img width="2078" height="1050" alt="Area of Land by State" src="https://github.com/user-attachments/assets/eea6418e-ed87-4c4a-a211-ab155d5b2e6a" />
+
+        <img width="704" height="704" alt="Area of Water by Type" src="https://github.com/user-attachments/assets/b8337fd0-2e6b-4b35-9945-06b54a81e2f4" />
+
+
 
 ------------------------------------------------------------------------
 
