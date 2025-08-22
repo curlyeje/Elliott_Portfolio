@@ -93,6 +93,9 @@ LEFT JOIN ar_activity a ON a-pid = pd.pid AND a. encounter = b.encounter GROUP B
 
 ### 5. Dashboard - [Click here to view dashboard](https://public.tableau.com/app/profile/elliott.earley/viz/OpenemrDashboard/Dashboard1)
 
+<img width="2798" height="1388" alt="Dashboard 1 copy" src="https://github.com/user-attachments/assets/1146e884-c270-411f-981e-27ccd4c19660" />
+
+
 I connected Tableau to the MySQL database and built:
 - **KPIs:** Total patients, encounters YTD.
 - **Age distribution:** Pie Chart by age groups.
