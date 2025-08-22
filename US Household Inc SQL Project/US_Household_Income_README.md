@@ -9,6 +9,8 @@ The ultimate goal was to determine which areas are performing well in
 terms of income distribution, while also uncovering geographic and
 demographic patterns.
 
+📊 [View the Dashboard](https://public.tableau.com/app/profile/elliott.earley/viz/USHouseholdIncomeProject/Dashboard1#1)
+
 ------------------------------------------------------------------------
 
 ## Data Cleaning Process
