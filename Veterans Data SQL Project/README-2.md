@@ -4,7 +4,7 @@ This dataset titled **"Veterans Who Used VA Health Care"** provides
 annual data from 2010 to 2015 on the utilization of VA health services
 across all U.S. states.
 
-Each record includes: - State name\
+Each record includes: - State name
 - Total veteran population\
 - Number of veterans who used VA health care\
 - Percentage of veterans utilizing these services
