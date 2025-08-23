@@ -77,13 +77,22 @@ calculations.
 
 4.  **Florida, California, and Texas** saw the largest increases in VA locations
 
+<img width="218" height="137" alt="Question # 4 Answer" src="https://github.com/user-attachments/assets/d163f3a4-81e7-4f12-849d-64d63ccc0445" />
+
+
     <img width="1704" height="1050" alt="Total Amount of VA per State" src="https://github.com/user-attachments/assets/1ba072f5-78d3-4175-9782-a2fad737f4a0" />
 
 5.  **Total veteran population (2010--2015): \~130 million.**\
+
+<img width="359" height="136" alt="Question # 5 Answer" src="https://github.com/user-attachments/assets/3fcb639a-45b5-44bd-b7a4-61d38f30dffd" />
+
 6.  **Total VA patients (2010--2015): \~40 million.**\
-7. **Florida** had the highest number of VA patients in 2015, while
+
+<img width="176" height="126" alt="Question # 6 Answer" src="https://github.com/user-attachments/assets/298bfe97-487d-4f3b-8bb5-8d35c0b05774" />
+
+8. **Florida** had the highest number of VA patients in 2015, while
     **D.C.** had the lowest.
-8. **Puerto Rico** had the highest veteran VA usage percentage in 2015.
+9. **Puerto Rico** had the highest veteran VA usage percentage in 2015.
 
 ------------------------------------------------------------------------
 
