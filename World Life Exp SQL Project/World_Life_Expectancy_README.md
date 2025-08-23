@@ -17,7 +17,7 @@ and developed countries, and trends over the past 15 years.
 ## Final Tableau Dashboard
 
 The findings from this project were visualized in Tableau through an
-interactive dashboard.\
+interactive dashboard.
 🔗 [View the
 Dashboard](https://public.tableau.com/app/profile/elliott.earley/viz/WorldLifeExpectancyProject_17556279430760/Dashboard1)
 
@@ -33,11 +33,11 @@ cleaning steps:
 
 1.  **Duplicate Checks**
     -   Used the `ROW_NUMBER() OVER(PARTITION BY ...)` window function
-        along with `CONCAT(country, year)` to identify duplicates.\
+        along with `CONCAT(country, year)` to identify duplicates.
     -   Found and resolved **3 duplicate records**.
 2.  **Handling Missing Data**
     -   Investigated blank values in critical columns such as
-        **Status**, **Life Expectancy**, and **Country**.\
+        **Status**, **Life Expectancy**, and **Country**.
     -   Applied logical imputation where possible.
 3.  **Status Column Adjustment**
     -   To resolve missing values in the *Status* field (Developed
@@ -53,7 +53,7 @@ life expectancy across nations. Key findings include:
 
 1.  **Trends in Life Expectancy**
     -   Over the last **15 years**, the **world's average life
-        expectancy increased by 6 years** (2007 → 2022).\
+        expectancy increased by 6 years** (2007 → 2022).
     -   Some countries showed dramatic improvements; for example,
         **Haiti, Zimbabwe, and Eritrea** experienced increases of **20+
         years** in life expectancy.
@@ -62,11 +62,11 @@ life expectancy across nations. Key findings include:
 
 2.  **Economic Correlations**
     -   Countries with **lower GDP** generally had **lower life
-        expectancy**.\
+        expectancy**.
     -   Countries with **higher GDP** showed significantly **higher life
-        expectancy**.\
+        expectancy**.
     -   On average:
-        -   **High GDP countries** → Life expectancy \~ **74 years**\
+        -   **High GDP countries** → Life expectancy \~ **74 years**
         -   **Low GDP countries** → Life expectancy \~ **65 years**
      
 <img width="1850" height="1048" alt="Average Life Expectancy by GDP" src="https://github.com/user-attachments/assets/64a307d9-dab6-4388-a8f6-77a1ed2ddd83" />
@@ -74,7 +74,7 @@ life expectancy across nations. Key findings include:
     
 3.  **Development Status Insights**
     -   The dataset revealed **66.83 developing countries** versus **79.20 developed countries based on the average life expectancy.
-        developed countries**.\
+        developed countries**.
     -   Developing countries consistently lagged behind in life
         expectancy compared to developed nations.
 
@@ -82,7 +82,7 @@ life expectancy across nations. Key findings include:
 
 4.  **Impact of Health Factors**
     -   **BMI (Body Mass Index)** showed noticeable correlation patterns
-        when compared to life expectancy.\
+        when compared to life expectancy.
     -   **Adult Mortality** provided deeper insights into national
         health systems and challenges. For example:
         -   The **United States of America** reported a **rolling total
@@ -96,11 +96,11 @@ life expectancy across nations. Key findings include:
 ## Key Insights
 
 -   Life expectancy is **steadily improving worldwide**, but disparities
-    remain between developing and developed nations.\
+    remain between developing and developed nations.
 -   **GDP is a strong predictor** of a country's average life
-    expectancy.\
+    expectancy.
 -   Countries with weaker health systems still face challenges related
-    to **adult mortality, BMI, and disease prevalence**.\
+    to **adult mortality, BMI, and disease prevalence**.
 -   Global health efforts have contributed to improved outcomes, but
     **systemic inequalities** remain a critical issue.
 
@@ -109,6 +109,6 @@ life expectancy across nations. Key findings include:
 ## Repository Links
 
 -   [SQL Queries & Cleaning
-    Steps](https://github.com/curlyeje/Elliott_Portfolio/tree/main/World%20Life%20Expectancy%20SQL%20Project)\
+    Steps](https://github.com/curlyeje/Elliott_Portfolio/tree/main/World%20Life%20Expectancy%20SQL%20Project)
 -   [Tableau
     Dashboard](https://public.tableau.com/app/profile/elliott.earley/viz/WorldLifeExpectancyProject_17556279430760/Dashboard1)
