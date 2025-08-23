@@ -39,7 +39,7 @@ The project began with raw data extraction and cleaning. Screenshots of
 raw vs. cleaned data can be found in the repository:
 
 -   ![Raw
-    Data](https://github.com/curlyeje/Elliott_Portfolio/blob/9b0a6767c32628a03dfaa4902811d72a69ea188b/Veterans%20Data%20SQL%20Project/Raw%20Data.png)\
+    Data](https://github.com/curlyeje/Elliott_Portfolio/blob/9b0a6767c32628a03dfaa4902811d72a69ea188b/Veterans%20Data%20SQL%20Project/Raw%20Data.png)
 -   ![Cleaned
     Data](https://github.com/curlyeje/Elliott_Portfolio/blob/3017d5c919a54fac20fcbc274e6fef5d448fff5a/Veterans%20Data%20SQL%20Project/Cleaned%20Data.png "fig:")
 
