@@ -124,7 +124,7 @@ insights. Key findings include:
     -   **Urban and Community areas** displayed the **lowest averages**,
         highlighting economic disparities.
     -   **Census Designated Places (CDPs)** reported an average U.S.
-        household income of **\$116,376**.\
+        household income of **\$116,376**.
     -   At the city level, **Delta Junction, Alaska** reported the
         **highest average household income at \$242,857**.
 
