@@ -44,8 +44,6 @@ UPDATE hospital_encounters_for_behavioral_health_cleaned
 - Hospital encounters increased significantly between **2020–2022**.  
 - SQL used a rolling total window function.  
 
-📸 [View Result]
-
 <img width="269" height="78" alt="Question # 1 Answer" src="https://github.com/user-attachments/assets/5bd55151-6d1e-4143-a9db-bef967808162" />
 
 
@@ -54,21 +52,23 @@ UPDATE hospital_encounters_for_behavioral_health_cleaned
 ### 2. Which year had the highest number of behavioral health-related encounters?  
 - **2022** recorded the highest encounters with **317,653,552 total discharges/visits**.  
 
-📸 [View Result](https://github.com/curlyeje/Elliott_Portfolio/blob/d97668d013f5e1d517c2b423da8bc8c2ed56dda7/Hospital%20Encounters%20SQL%20Project/Question%20%23%202%20Answer.png)  
+<img width="145" height="80" alt="Question # 2 Answer" src="https://github.com/user-attachments/assets/bc62ad41-5247-4c21-9a02-195ed6a4009f" />
+
 
 ---
 
 ### 3. What proportion of total hospital discharges were due to substance use disorders?  
 - Substance use disorders accounted for **6.36%** of all encounters.  
 
-📸 [View Result](https://github.com/curlyeje/Elliott_Portfolio/blob/eff6d9de95032956da8fbb8baccd9fc4d12f6c28/Hospital%20Encounters%20SQL%20Project/Question%20%23%203%20Answer.png)  
+<img width="305" height="44" alt="Question # 3 Answer" src="https://github.com/user-attachments/assets/d7a13ce7-3534-474d-851a-0bff300fc19e" />
 
 ---
 
 ### 4. Inpatient vs. Emergency Department Usage  
 - The dataset contained **216 inpatient** and **216 emergency department entries**, totaling **432 records**.  
 
-📸 [View Result](https://github.com/curlyeje/Elliott_Portfolio/blob/347cf02fc9360fee003f9d80c937edf678d0a589/Hospital%20Encounters%20SQL%20Project/Question%20%234%20Answer.png)  
+ <img width="242" height="58" alt="Question # 4 Answer" src="https://github.com/user-attachments/assets/a55b0ddb-cef2-469a-8d73-369a7cd18209" />
+
 
 ---
 
@@ -77,7 +77,8 @@ UPDATE hospital_encounters_for_behavioral_health_cleaned
 - **Female**  
 - **Male**  
 
-📸 [View Result](https://github.com/curlyeje/Elliott_Portfolio/blob/801a85bc5d3a9c3a6b35805e45eccf557b86f8cc/Hospital%20Encounters%20SQL%20Project/Question%20%235%20Answer.png)  
+<img width="458" height="76" alt="Question # 5 Answer" src="https://github.com/user-attachments/assets/08ac0f4a-f750-4160-b46b-64ffa96f5a6d" />
+
 
 ---
 
