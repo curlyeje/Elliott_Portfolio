@@ -102,8 +102,8 @@ insights. Key findings include:
 
 1.  **Geographic Observations**
     -   **Alaska and Texas** emerged as the states with the largest land
-        areas.\
-    -   **Alaska** also reported the most extensive water area.\
+        areas.
+    -   **Alaska** also reported the most extensive water area.
     -   Identified the **Top 10 states by land area** and **Top 10
         states by water area** for geographic distribution analysis.
 
@@ -115,14 +115,14 @@ insights. Key findings include:
 2.  **Household Income Rankings**
     -   Ranked the **Top 10 states by average household income**:
         -   The **District of Columbia** led with the highest average
-            household income.\
+            household income.
     -   Identified the **Bottom 5 states by average household income**:
         -   **Puerto Rico** recorded the lowest figures.
 3.  **Regional and Demographic Insights**
     -   **Municipalities** recorded the **highest average household
-        income** overall.\
+        income** overall.
     -   **Urban and Community areas** displayed the **lowest averages**,
-        highlighting economic disparities.\
+        highlighting economic disparities.
     -   **Census Designated Places (CDPs)** reported an average U.S.
         household income of **\$116,376**.\
     -   At the city level, **Delta Junction, Alaska** reported the
@@ -139,13 +139,13 @@ insights. Key findings include:
 ## Key Insights
 
 -   **Geographic scale** (land and water area) can influence income
-    distribution across states.\
+    distribution across states.
 -   While wealth is concentrated in certain regions (e.g., District of
     Columbia), **systemic disparities remain evident** across states and
-    territories.\
+    territories.
 -   **Municipalities outperform urban and community regions**,
     suggesting structural or policy-driven differences in income
-    generation.\
+    generation.
 -   **Smaller communities like Delta Junction** can still achieve
     exceptionally high income averages, offering unique perspectives on
     localized economic performance.
