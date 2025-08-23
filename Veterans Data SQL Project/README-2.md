@@ -81,19 +81,8 @@ calculations.
 
 5.  **Total veteran population (2010--2015): \~130 million.**\
 
-<img width="359" height="136" alt="Question # 5 Answer" src="https://github.com/user-attachments/assets/3fcb639a-45b5-44bd-b7a4-61d38f30dffd" />
+<img width="203" height="49" alt="Question # 8 Answer" src="https://github.com/user-attachments/assets/8b8d653f-fa5b-4ab6-a5a2-e54cd36cc22d" />
 
-6.  **Total VA patients (2010--2015): \~40 million.**\
-
-<img width="176" height="126" alt="Question # 6 Answer" src="https://github.com/user-attachments/assets/298bfe97-487d-4f3b-8bb5-8d35c0b05774" />
-
-8. **Florida** had the highest number of VA patients in 2015, while
-    **D.C.** had the lowest.
-9. **Puerto Rico** had the highest veteran VA usage percentage in 2015.
 
 ------------------------------------------------------------------------
 
-## Repository Links
-
--   [SQL Queries &
-    Screenshots](https://github.com/curlyeje/Elliott_Portfolio/tree/main/Veterans%20Data%20SQL%20Project)
