@@ -54,8 +54,18 @@ calculations.
 
 1.  VA health care usage increased by **over 5 percentage points**
     between 2010 and 2015.
+
+<img width="319" height="124" alt="Question # 1 Answer Part 1" src="https://github.com/user-attachments/assets/1b7bc5cc-2bd6-4295-961d-56af27371f85" />
+
+    
 2.  **Puerto Rico** had the highest VA usage rate (54%), while
     **Hawaii** had the lowest (16%).
+
+    <img width="321" height="136" alt="Question # 2 Answer Part 1" src="https://github.com/user-attachments/assets/b82e686f-2b6a-409f-9ef2-fc7ff037fc23" />
+
+    <img width="298" height="134" alt="Question # 2 Answer Part 2" src="https://github.com/user-attachments/assets/e866b747-4774-40f6-8595-49deaaba7b98" />
+
+
 
    <img width="1854" height="1042" alt="VA Health Care Usage Rates by State" src="https://github.com/user-attachments/assets/655dfcc4-943a-47b1-8639-dd29f759bdb4" />
 
