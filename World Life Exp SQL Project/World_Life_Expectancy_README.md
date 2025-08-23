@@ -108,7 +108,5 @@ life expectancy across nations. Key findings include:
 
 ## Repository Links
 
--   [SQL Queries & Cleaning
-    Steps](https://github.com/curlyeje/Elliott_Portfolio/tree/main/World%20Life%20Expectancy%20SQL%20Project)
 -   [Tableau
     Dashboard](https://public.tableau.com/app/profile/elliott.earley/viz/WorldLifeExpectancyProject_17556279430760/Dashboard1)
