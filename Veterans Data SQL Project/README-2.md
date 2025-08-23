@@ -77,9 +77,6 @@ calculations.
 
 4.  **Florida, California, and Texas** saw the largest increases in VA locations
 
-<img width="218" height="137" alt="Question # 4 Answer" src="https://github.com/user-attachments/assets/d163f3a4-81e7-4f12-849d-64d63ccc0445" />
-
-
     <img width="1704" height="1050" alt="Total Amount of VA per State" src="https://github.com/user-attachments/assets/1ba072f5-78d3-4175-9782-a2fad737f4a0" />
 
 5.  **Total veteran population (2010--2015): \~130 million.**\
