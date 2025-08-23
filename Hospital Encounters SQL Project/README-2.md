@@ -87,14 +87,16 @@ UPDATE hospital_encounters_for_behavioral_health_cleaned
 - **Other Payer**  
 - **Uninsured**  
 
-📸 [View Result](https://github.com/curlyeje/Elliott_Portfolio/blob/7d1ced1c300583276b74acf99db62a3c41dd9281/Hospital%20Encounters%20SQL%20Project/Question%20%236%20Answer.png)  
+<img width="444" height="79" alt="Question # 6 Answer" src="https://github.com/user-attachments/assets/24301b97-9892-4ece-b1f1-ce9658b639c8" />
+
 
 ---
 
 ### 7. Total Encounters Counted  
 - The dataset included a total of **219,078,738** encounters.  
 
-📸 [View Result](https://github.com/curlyeje/Elliott_Portfolio/blob/e88fcd99c1fd69be098182ce601221473cd50ec0/Hospital%20Encounters%20SQL%20Project/Question%20%237%20Answer.png)  
+<img width="186" height="48" alt="Question # 7 Answer" src="https://github.com/user-attachments/assets/f14268b4-34d4-4508-8aa2-7d9d5077ff51" />
+
 
 ---
 
