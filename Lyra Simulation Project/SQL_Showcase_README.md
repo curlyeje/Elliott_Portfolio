@@ -53,9 +53,6 @@ ORDER BY enrollment_month ASC;
 Screenshot: <img width="1589" height="1253" alt="q01_monthly_new_enrollments_sql_output_updated" src="https://github.com/user-attachments/assets/6cb023cf-d5ec-4dbd-a7c9-41bc0ea58a33" />
 
 
-
-
-
 ### Analysis
 - Enrollment trends act as an early signal of demand and growth.
 - Sustained growth suggests effective acquisition or employer expansion.
@@ -100,6 +97,9 @@ JOIN (
 ) fs
   ON m.member_id = fs.member_id;
 ```
+
+Screenshot: <img width="1280" height="656" alt="q02_median_days_to_first_completed_session_sql_output" src="https://github.com/user-attachments/assets/2c14ef5f-3ee3-48a2-9125-4dcb19dd17d0" />
+
 
 ### Analysis
 - Longer delays increase drop-off risk and delay clinical impact.
@@ -146,6 +146,8 @@ SELECT
   ROUND(SUM(IFF(STATUS='No-Show',1,0)) / COUNT(*), 3) AS no_show_rate
 FROM LYRA_BIG_DEMO.PUBLIC.F_SESSIONS;
 ```
+
+Sceenshot: <img width="1434" height="732" alt="q03_no_show_rate_by_event_type_sql_output" src="https://github.com/user-attachments/assets/a4ce870c-886f-43eb-b928-eb6f309790b4" />
 
 ### Analysis
 - No-shows reduce effective capacity and continuity of care.
