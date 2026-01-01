@@ -325,6 +325,8 @@ FROM LYRA_BIG_DEMO.PUBLIC.F_SESSIONS
 WHERE STATUS = 'Completed'
   AND SESSION_COST_USD IS NOT NULL;
 ```
+**Screenshot**: <img width="1745" height="425" alt="q07_avg_cost_per_completed_session_sql_output" src="https://github.com/user-attachments/assets/3fd89d65-5bae-4e4b-b4a6-d2054075a92a" />
+
 
 ### Analysis
 - Unit cost directly affects PMPM and budgeting.
@@ -364,6 +366,7 @@ FROM LYRA_BIG_DEMO.PUBLIC.F_TICKETS
 GROUP BY DATE_TRUNC('month', CREATED_DATE)
 ORDER BY month;
 ```
+**Screenshot**:<img width="1745" height="1426" alt="q08_high_urgent_ticket_rate_sql_output" src="https://github.com/user-attachments/assets/a19e06b0-9be5-41d5-bb44-158888ac0f7d" />
 
 ### Analysis
 - Rising severity signals operational stress.
@@ -379,6 +382,10 @@ ORDER BY month;
 
 ### Business Question
 What is the clinical acuity of members entering care?
+
+
+**Screenshot**: <img width="1745" height="810" alt="q09_baseline_severity_distribution_sql_output" src="https://github.com/user-attachments/assets/bcbc8c4e-db6f-41d0-ad60-4b32c928df36" />
+
 
 ### Analysis
 - High baseline severity implies complex care needs.
