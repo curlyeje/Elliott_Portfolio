@@ -49,7 +49,8 @@ FROM LYRA_BIG_DEMO.PUBLIC.D_MEMBERS
 GROUP BY enrollment_month
 ORDER BY enrollment_month ASC;
 ```
-(A_screenshot_of_a_project_description_and_data_pri.png)
+Screenshot: <img width="1589" height="1340" alt="q01_monthly_new_enrollments" src="https://github.com/user-attachments/assets/62ffec61-cf9a-442e-8154-c7b5973abf9e" />
+
 
 
 ### Analysis
