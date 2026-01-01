@@ -49,7 +49,10 @@ FROM LYRA_BIG_DEMO.PUBLIC.D_MEMBERS
 GROUP BY enrollment_month
 ORDER BY enrollment_month ASC;
 ```
-Screenshot: <img width="1589" height="1340" alt="q01_monthly_new_enrollments" src="https://github.com/user-attachments/assets/62ffec61-cf9a-442e-8154-c7b5973abf9e" />
+
+Screenshot: <img width="1589" height="1253" alt="q01_monthly_new_enrollments_sql_output_updated" src="https://github.com/user-attachments/assets/6cb023cf-d5ec-4dbd-a7c9-41bc0ea58a33" />
+
+
 
 
 
