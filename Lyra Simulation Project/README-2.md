@@ -1,16 +1,16 @@
 
-# Healthcare Analytics Case Study  
+# Lyra Health Simulated Project
 ## Prioritized KPI Analysis & Visualization (Snowflake → Tableau)
 
 **Author:** Elliott Earley  
 **Focus Areas:** Healthcare Analytics, Clinical Operations, Revenue Cycle, Member Experience  
-**Last Updated:** 2025-12-26  
+**Last Updated:** 2026-01-01  
 
 ---
 
 ## 1. Project Overview
 
-This project is an end-to-end **healthcare analytics case study** designed to demonstrate how raw healthcare data can be transformed into **clear, executive-ready insights**.
+This is a **Lyra Health–inspired analytics case study** using simulated healthcare data to showcase how complex datasets can be translated into actionable, executive-level insights. **All data is fictional and HIPAA-exempt**.
 
 The project answers **10 core analytical questions** spanning:
 - Enrollment growth
