@@ -288,6 +288,8 @@ FROM LYRA_BIG_DEMO.PUBLIC.F_CLAIMS
 GROUP BY CLAIM_STATUS
 ORDER BY claim_count DESC;
 ```
+**Screenshot**: 
+<img width="3465" height="1480" alt="q06_claim_status_mix_sql_output" src="https://github.com/user-attachments/assets/6f65c4c4-ccf2-4525-88af-b52f6a171092" />
 
 ### Analysis
 - Paid % reflects billing effectiveness.
