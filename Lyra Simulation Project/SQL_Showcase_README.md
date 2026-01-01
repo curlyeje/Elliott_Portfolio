@@ -49,6 +49,15 @@ FROM LYRA_BIG_DEMO.PUBLIC.D_MEMBERS
 GROUP BY enrollment_month
 ORDER BY enrollment_month ASC;
 ```
+Analysis
+Monthly enrollments reveal demand patterns and growth momentum.
+Sustained upward trends indicate effective outreach, partnerships, or employer adoption.
+Volatility or seasonal dips may reflect onboarding cycles, benefits enrollment timing, or access constraints.
+
+Recommendations
+Monitor enrollment trends monthly as a leading growth indicator.
+Investigate sharp increases or drops to identify drivers (employer launches, seasonality).
+Use enrollment growth to proactively plan provider capacity and support staffing.
 
 ---
 
