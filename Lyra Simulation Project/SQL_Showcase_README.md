@@ -49,7 +49,7 @@ FROM LYRA_BIG_DEMO.PUBLIC.D_MEMBERS
 GROUP BY enrollment_month
 ORDER BY enrollment_month ASC;
 ```
-[![Lyra Health Simulated Analytics Project – Data Privacy Notice](A_screenshot_of_a_project_description_and_data_pri.png)](A_screenshot_of_a_project_description_and_data_pri.png)
+(A_screenshot_of_a_project_description_and_data_pri.png)
 
 
 ### Analysis
