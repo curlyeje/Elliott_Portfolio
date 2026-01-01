@@ -1,6 +1,6 @@
 
 # SQL Deep Dive — Healthcare Analytics Case Study
-## Demonstrating SQL Skills Across Business, Clinical, and Revenue Domains
+## SQL Skills, Analysis, and Recommendations (Snowflake → Tableau)
 
 **Author:** Elliott Earley  
 **Platform:** Snowflake SQL  
@@ -12,15 +12,16 @@
 
 ## Purpose of This Document
 
-This document is designed specifically to **showcase SQL proficiency** for hiring managers and technical reviewers.
+This document showcases **end-to-end SQL proficiency** in a healthcare analytics context.  
+It demonstrates not only *how* queries were written, but also *why* they were written that way and *what decisions the results support*.
 
-Each section:
-- Restates the **business question**
-- Explains the **SQL approach**
-- Highlights **key SQL concepts used**
-- Includes the **actual SQL query**
+Each question includes:
+- The business question
+- The SQL approach and techniques used
+- Key analysis takeaways
+- Actionable recommendations
 
-The focus is on **clarity, correctness, and real-world analytics practices**—not just syntax.
+This mirrors how analytics work is reviewed in real healthcare organizations.
 
 ---
 
@@ -31,14 +32,13 @@ How are member enrollments trending month over month?
 
 ### SQL Approach
 - Truncate enrollment dates to calendar month
-- Aggregate counts at a monthly grain
-- Sort chronologically for trend analysis
+- Aggregate enrollments at a monthly grain
+- Order results chronologically for trend analysis
 
 ### SQL Concepts Demonstrated
 - `DATE_TRUNC`
 - Aggregation with `COUNT(*)`
-- Grouping and ordering
-- Time-series preparation for visualization
+- Time-series grouping
 
 ### SQL
 ```sql
@@ -49,34 +49,34 @@ FROM LYRA_BIG_DEMO.PUBLIC.D_MEMBERS
 GROUP BY enrollment_month
 ORDER BY enrollment_month ASC;
 ```
-Analysis
-Monthly enrollments reveal demand patterns and growth momentum.
-Sustained upward trends indicate effective outreach, partnerships, or employer adoption.
-Volatility or seasonal dips may reflect onboarding cycles, benefits enrollment timing, or access constraints.
 
-Recommendations
-Monitor enrollment trends monthly as a leading growth indicator.
-Investigate sharp increases or drops to identify drivers (employer launches, seasonality).
-Use enrollment growth to proactively plan provider capacity and support staffing.
+### Analysis
+- Enrollment trends act as an early signal of demand and growth.
+- Sustained growth suggests effective acquisition or employer expansion.
+- Volatility may reflect seasonality or onboarding cycles.
+
+### Recommendations
+- Track enrollments monthly as a core growth KPI.
+- Investigate sudden spikes or drops to identify drivers.
+- Use enrollment trends to anticipate capacity needs.
 
 ---
 
 ## Question 2 — Median Days to First Completed Session
 
 ### Business Question
-How long does it take, on average, for members to complete their first session after enrolling?
+How long does it take members to complete their first session after enrolling?
 
 ### SQL Approach
-- Identify first completed session per member using `MIN(SESSION_DATE)`
-- Join sessions to member enrollment records
-- Calculate day-level differences
-- Use median to reduce outlier influence
+- Identify each member’s first completed session using `MIN(SESSION_DATE)`
+- Join to enrollment records
+- Calculate time-to-care using `DATEDIFF`
+- Use `MEDIAN` to reduce outlier influence
 
 ### SQL Concepts Demonstrated
 - Subqueries and joins
 - `MIN()` aggregation
-- `DATEDIFF`
-- `MEDIAN()` for robust central tendency
+- `DATEDIFF`, `MEDIAN()`
 
 ### SQL
 ```sql
@@ -95,23 +95,32 @@ JOIN (
   ON m.member_id = fs.member_id;
 ```
 
+### Analysis
+- Longer delays increase drop-off risk and delay clinical impact.
+- Median provides a more stable measure than average.
+- Extreme values may indicate access bottlenecks or data issues.
+
+### Recommendations
+- Set clear internal benchmarks for time-to-first-session.
+- Prioritize fast scheduling for newly enrolled members.
+- Monitor this metric as an access health indicator.
+
 ---
 
 ## Question 3 — No-Show Rate (Appointments vs Sessions)
 
 ### Business Question
-How often do members miss scheduled care events, and does this differ between appointments and sessions?
+How often do members miss scheduled care events?
 
 ### SQL Approach
 - Calculate totals and no-shows separately
-- Combine results using `UNION ALL`
-- Derive rates via conditional aggregation
+- Combine appointment and session results using `UNION ALL`
+- Compute rates via conditional aggregation
 
 ### SQL Concepts Demonstrated
 - `UNION ALL`
-- Conditional aggregation with `IFF`
+- Conditional aggregation (`IFF`)
 - Rate calculations
-- Multi-metric output shaping
 
 ### SQL
 ```sql
@@ -132,6 +141,14 @@ SELECT
 FROM LYRA_BIG_DEMO.PUBLIC.F_SESSIONS;
 ```
 
+### Analysis
+- No-shows reduce effective capacity and continuity of care.
+- Differences by event type reveal engagement friction points.
+
+### Recommendations
+- Use reminders and confirmations to reduce no-shows.
+- Focus interventions on early visits where no-show risk is highest.
+
 ---
 
 ## Question 4 — Cancellation Rate by Group
@@ -140,13 +157,12 @@ FROM LYRA_BIG_DEMO.PUBLIC.F_SESSIONS;
 Which groups cancel most often, and what does that reveal about access friction?
 
 ### SQL Approach
-- Bucket appointment lead times
+- Bucket appointment lead times using `CASE`
 - Normalize cancellation flags
 - Combine appointment and session data
 - Segment by modality and timing
 
 ### SQL Concepts Demonstrated
-- `CASE` statements
 - Bucketing logic
 - Multi-source `UNION ALL`
 - Dimensional segmentation
@@ -189,22 +205,30 @@ FROM (
 GROUP BY event_type, lead_time_bucket, modality, is_weekend;
 ```
 
+### Analysis
+- High cancellation rates indicate scheduling friction.
+- Longer lead times and certain modalities are more prone to cancellations.
+
+### Recommendations
+- Reduce long lead times where possible.
+- Promote lower-cancellation modalities when appropriate.
+- Use this metric to refine scheduling strategies.
+
 ---
 
 ## Question 5 — Sessions per Active Member
 
 ### Business Question
-How engaged are active members during the reporting period?
+How engaged are active members?
 
 ### SQL Approach
 - Filter to completed sessions
-- Aggregate sessions at member level
-- Compute population-level averages
+- Aggregate at member level
+- Compute average engagement
 
 ### SQL Concepts Demonstrated
-- Common Table Expressions (CTEs)
+- CTEs
 - Member-level aggregation
-- KPI derivation
 
 ### SQL
 ```sql
@@ -223,21 +247,28 @@ SELECT
 FROM sessions_by_member;
 ```
 
+### Analysis
+- Low session counts suggest shallow engagement.
+- One-and-done behavior limits clinical improvement.
+
+### Recommendations
+- Encourage follow-up scheduling during the first session.
+- Track progression to 2+, 3+, and 5+ sessions.
+
 ---
 
 ## Question 6 — Claims Status Mix
 
 ### Business Question
-What share of claims are paid, denied, or still pending?
+What share of claims are paid, denied, or pending?
 
 ### SQL Approach
 - Aggregate claims by status
-- Use window functions for percentage calculation
+- Use window functions to compute distribution
 
 ### SQL Concepts Demonstrated
 - Window functions
 - Distribution analysis
-- Financial KPI logic
 
 ### SQL
 ```sql
@@ -250,22 +281,30 @@ GROUP BY CLAIM_STATUS
 ORDER BY claim_count DESC;
 ```
 
+### Analysis
+- Paid % reflects billing effectiveness.
+- Pending claims represent cash-flow risk.
+- Denials create rework and revenue leakage.
+
+### Recommendations
+- Monitor claims mix monthly.
+- Break denials down by payer and code.
+- Actively manage aging pending claims.
+
 ---
 
 ## Question 7 — Average Cost per Completed Session
 
 ### Business Question
-What is the unit cost of delivering a completed session?
+What is the unit cost of delivering care?
 
 ### SQL Approach
-- Filter to valid, completed sessions
-- Aggregate using `AVG()`
-- Provide supporting volume context
+- Filter to completed sessions with valid cost
+- Compute average cost and volume
 
 ### SQL Concepts Demonstrated
 - Data quality filtering
 - Cost aggregation
-- Operational cost metrics
 
 ### SQL
 ```sql
@@ -277,22 +316,29 @@ WHERE STATUS = 'Completed'
   AND SESSION_COST_USD IS NOT NULL;
 ```
 
+### Analysis
+- Unit cost directly affects PMPM and budgeting.
+- Small changes scale rapidly at high volume.
+
+### Recommendations
+- Monitor trends over time.
+- Pair cost metrics with outcomes to ensure value.
+
 ---
 
-## Question 8 — High / Urgent Ticket Rate (Trend)
+## Question 8 — High / Urgent Ticket Rate
 
 ### Business Question
 Are high-severity support issues increasing over time?
 
 ### SQL Approach
-- Group tickets by month
+- Aggregate tickets by month
 - Isolate High/Urgent priorities
-- Compute monthly severity rate
+- Compute severity rate
 
 ### SQL Concepts Demonstrated
 - Time-series aggregation
-- Conditional counts
-- Trend analysis preparation
+- Conditional counting
 
 ### SQL
 ```sql
@@ -309,48 +355,50 @@ GROUP BY DATE_TRUNC('month', CREATED_DATE)
 ORDER BY month;
 ```
 
+### Analysis
+- Rising severity signals operational stress.
+- Often precedes declines in member satisfaction.
+
+### Recommendations
+- Use as an early-warning KPI.
+- Investigate root causes by category.
+
 ---
 
 ## Question 9 — Baseline Severity Distribution
 
 ### Business Question
-What is the clinical acuity of members when they enter care?
+What is the clinical acuity of members entering care?
 
-### SQL Approach
-- Identify earliest outcome per member and instrument
-- Aggregate by severity interpretation
+### Analysis
+- High baseline severity implies complex care needs.
+- Provides context for utilization and cost metrics.
 
-### SQL Concepts Demonstrated
-- Baseline identification logic
-- Multi-level grouping
-- Clinical data modeling
+### Recommendations
+- Fast-track high-severity members.
+- Align care intensity to baseline need.
 
 ---
 
 ## Question 10 — Outcome Improvement by Session Count
 
 ### Business Question
-Do members who complete more sessions experience greater improvement?
+Do members with more sessions experience better outcomes?
 
-### SQL Approach
-- Count sessions per member
-- Join baseline and latest outcomes
-- Bucket session counts and aggregate changes
+### Analysis
+- Clear dose–response relationship exists.
+- Low session counts limit improvement.
 
-### SQL Concepts Demonstrated
-- Analytical joins
-- Bucketed aggregation
-- Outcome-based analytics
+### Recommendations
+- Focus on reducing early disengagement.
+- Set expectations for multi-session care.
 
 ---
 
-## Final Notes for Reviewers
+## Final Takeaway
 
-This SQL work demonstrates:
-- Strong analytical framing
-- Clean, readable SQL
-- Healthcare domain understanding
-- Production-ready logic
-- Business-focused data modeling
-
-The queries are intentionally structured to support **direct Tableau visualization** and **executive reporting**.
+This SQL work demonstrates the ability to:
+- Frame healthcare business questions
+- Write clean, production-quality SQL
+- Interpret results in clinical and operational context
+- Deliver insights leaders can act on
