@@ -50,7 +50,7 @@ GROUP BY enrollment_month
 ORDER BY enrollment_month ASC;
 ```
 
-Screenshot: <img width="1589" height="1253" alt="q01_monthly_new_enrollments_sql_output_updated" src="https://github.com/user-attachments/assets/6cb023cf-d5ec-4dbd-a7c9-41bc0ea58a33" />
+**Screenshot**: <img width="1589" height="1253" alt="q01_monthly_new_enrollments_sql_output_updated" src="https://github.com/user-attachments/assets/6cb023cf-d5ec-4dbd-a7c9-41bc0ea58a33" />
 
 
 ### Analysis
@@ -97,9 +97,7 @@ JOIN (
 ) fs
   ON m.member_id = fs.member_id;
 ```
-
-Screenshot: <img width="1280" height="656" alt="q02_median_days_to_first_completed_session_sql_output" src="https://github.com/user-attachments/assets/2c14ef5f-3ee3-48a2-9125-4dcb19dd17d0" />
-
+**Screenshot**: <img width="1280" height="656" alt="q02_median_days_to_first_completed_session_sql_output" src="https://github.com/user-attachments/assets/2c14ef5f-3ee3-48a2-9125-4dcb19dd17d0" />
 
 ### Analysis
 - Longer delays increase drop-off risk and delay clinical impact.
@@ -146,8 +144,7 @@ SELECT
   ROUND(SUM(IFF(STATUS='No-Show',1,0)) / COUNT(*), 3) AS no_show_rate
 FROM LYRA_BIG_DEMO.PUBLIC.F_SESSIONS;
 ```
-
-Sceenshot: <img width="1434" height="732" alt="q03_no_show_rate_by_event_type_sql_output" src="https://github.com/user-attachments/assets/a4ce870c-886f-43eb-b928-eb6f309790b4" />
+**Sceenshot**: <img width="1434" height="732" alt="q03_no_show_rate_by_event_type_sql_output" src="https://github.com/user-attachments/assets/a4ce870c-886f-43eb-b928-eb6f309790b4" />
 
 ### Analysis
 - No-shows reduce effective capacity and continuity of care.
@@ -212,6 +209,8 @@ FROM (
 )
 GROUP BY event_type, lead_time_bucket, modality, is_weekend;
 ```
+**Screenshot**: <img width="2280" height="2155" alt="q04_cancellation_rate_sql_output_final_cleaned" src="https://github.com/user-attachments/assets/92589ed5-7b52-4442-8e69-6e35cf3d69a9" />
+
 
 ### Analysis
 - High cancellation rates indicate scheduling friction.
@@ -254,6 +253,7 @@ SELECT
   ROUND(SUM(completed_session_count) / COUNT(*), 2) AS sessions_per_active_member
 FROM sessions_by_member;
 ```
+**Screenshot**:<img width="4116" height="1596" alt="q05_sessions_per_active_member_sql_output_readable_v2" src="https://github.com/user-attachments/assets/ab831539-2fc7-4d8c-b296-15021ccb8c93" /> 
 
 ### Analysis
 - Low session counts suggest shallow engagement.
