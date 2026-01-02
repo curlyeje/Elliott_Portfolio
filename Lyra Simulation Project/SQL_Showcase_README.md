@@ -558,6 +558,8 @@ JOIN
 GROUP BY session_count_bucket
 ORDER BY session_count_bucket;
 ```
+**Screenshot**: <img width="3000" height="960" alt="session_bucket_summary_two_line_headers" src="https://github.com/user-attachments/assets/7a1fb539-f500-4ad3-a118-82da4a332045" />
+
 
 ### Analysis
 - Clear dose–response relationship exists.
