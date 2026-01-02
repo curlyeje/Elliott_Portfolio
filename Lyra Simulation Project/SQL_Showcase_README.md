@@ -383,6 +383,19 @@ ORDER BY month;
 ### Business Question
 What is the clinical acuity of members entering care?
 
+### SQL Approach
+- Identifies baseline outcomes using the earliest MEASURE_DATE per MEMBER_ID and INSTRUMENT.
+- Uses an aggregate-then-join-back pattern to retrieve full baseline row details.
+- Filters out records with null MEASURE_DATE or INTERPRETATION.
+- Aggregates baseline outcomes by INSTRUMENT and INTERPRETATION.
+
+### SQL Concepts Demonstrated
+- Subqueries and derived tables
+- Inner joins with composite keys
+- Aggregate functions and GROUP BY
+- Percent-of-total calculations
+- Combining metrics at different grains for analytical reporting
+
 ### SQL
 ```sql
 SELECT
