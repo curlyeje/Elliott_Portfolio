@@ -484,6 +484,81 @@ ORDER BY
 ### Business Question
 Do members with more sessions experience better outcomes?
 
+### SQL Approach
+- Calculates completed session counts per member.
+- Buckets members into session count ranges (1–2, 3–5, 6–8, 9+).
+- Identifies each member’s baseline outcome (earliest score) and latest outcome (most recent score).
+- Joins session volume with outcome change to measure average improvement by engagement level.
+
+### SQL Concepts Demonstrated
+- Conditional logic with CASE for bucketing
+- Aggregate functions (COUNT, AVG, MIN, MAX)
+- Aggregate-then-join-back pattern for baseline and latest records
+- Multi-table joins at the member level
+- Derived metrics (change score = latest − baseline)
+- Grouping for cohort-level analytical reporting
+
+### SQL
+```sql
+SELECT
+  CASE
+    WHEN s.session_count BETWEEN 1 AND 2 THEN '1–2'
+    WHEN s.session_count BETWEEN 3 AND 5 THEN '3–5'
+    WHEN s.session_count BETWEEN 6 AND 8 THEN '6–8'
+    ELSE '9+'
+  END AS session_count_bucket,
+  COUNT(*) AS members,
+  ROUND(AVG(l.latest_score - b.baseline_score), 2) AS avg_outcome_change
+FROM
+  /* completed session count per member */
+  (
+    SELECT
+      MEMBER_ID,
+      COUNT(*) AS session_count
+    FROM LYRA_BIG_DEMO.PUBLIC.F_SESSIONS
+    WHERE STATUS = 'Completed'
+    GROUP BY MEMBER_ID
+  ) s
+JOIN
+  /* baseline outcome per member */
+  (
+    SELECT
+      o.MEMBER_ID,
+      o.SCORE AS baseline_score
+    FROM LYRA_BIG_DEMO.PUBLIC.F_OUTCOMES o
+    JOIN (
+      SELECT
+        MEMBER_ID,
+        MIN(MEASURE_DATE) AS baseline_date
+      FROM LYRA_BIG_DEMO.PUBLIC.F_OUTCOMES
+      GROUP BY MEMBER_ID
+    ) x
+      ON o.MEMBER_ID = x.MEMBER_ID
+     AND o.MEASURE_DATE = x.baseline_date
+  ) b
+  ON s.MEMBER_ID = b.MEMBER_ID
+JOIN
+  /* latest outcome per member */
+  (
+    SELECT
+      o.MEMBER_ID,
+      o.SCORE AS latest_score
+    FROM LYRA_BIG_DEMO.PUBLIC.F_OUTCOMES o
+    JOIN (
+      SELECT
+        MEMBER_ID,
+        MAX(MEASURE_DATE) AS latest_date
+      FROM LYRA_BIG_DEMO.PUBLIC.F_OUTCOMES
+      GROUP BY MEMBER_ID
+    ) y
+      ON o.MEMBER_ID = y.MEMBER_ID
+     AND o.MEASURE_DATE = y.latest_date
+  ) l
+  ON s.MEMBER_ID = l.MEMBER_ID
+GROUP BY session_count_bucket
+ORDER BY session_count_bucket;
+```
+
 ### Analysis
 - Clear dose–response relationship exists.
 - Low session counts limit improvement.
