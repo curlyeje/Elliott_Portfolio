@@ -383,6 +383,75 @@ ORDER BY month;
 ### Business Question
 What is the clinical acuity of members entering care?
 
+### SQL
+```sql
+SELECT
+  b.INSTRUMENT,
+  b.INTERPRETATION,
+  COUNT(*) AS baseline_outcomes,
+  ROUND(COUNT(*) / totals.total_baseline_outcomes, 4) AS pct_of_baseline_outcomes
+FROM
+  /* Baseline rows = earliest measure_date per member per instrument */
+  (
+    SELECT
+      o.MEMBER_ID,
+      o.INSTRUMENT,
+      o.MEASURE_DATE,
+      o.INTERPRETATION
+    FROM LYRA_BIG_DEMO.PUBLIC.F_OUTCOMES o
+    JOIN (
+      SELECT
+        MEMBER_ID,
+        INSTRUMENT,
+        MIN(MEASURE_DATE) AS baseline_measure_date
+      FROM LYRA_BIG_DEMO.PUBLIC.F_OUTCOMES
+      WHERE MEASURE_DATE IS NOT NULL
+      GROUP BY MEMBER_ID, INSTRUMENT
+    ) firsts
+      ON o.MEMBER_ID   = firsts.MEMBER_ID
+     AND o.INSTRUMENT  = firsts.INSTRUMENT
+     AND o.MEASURE_DATE = firsts.baseline_measure_date
+    WHERE o.INTERPRETATION IS NOT NULL
+  ) b
+JOIN
+  /* Totals for percent calc (by instrument) */
+  (
+    SELECT
+      INSTRUMENT,
+      COUNT(*) AS total_baseline_outcomes
+    FROM (
+      SELECT
+        o.MEMBER_ID,
+        o.INSTRUMENT,
+        o.MEASURE_DATE
+      FROM LYRA_BIG_DEMO.PUBLIC.F_OUTCOMES o
+      JOIN (
+        SELECT
+          MEMBER_ID,
+          INSTRUMENT,
+          MIN(MEASURE_DATE) AS baseline_measure_date
+        FROM LYRA_BIG_DEMO.PUBLIC.F_OUTCOMES
+        WHERE MEASURE_DATE IS NOT NULL
+        GROUP BY MEMBER_ID, INSTRUMENT
+      ) firsts
+        ON o.MEMBER_ID   = firsts.MEMBER_ID
+       AND o.INSTRUMENT  = firsts.INSTRUMENT
+       AND o.MEASURE_DATE = firsts.baseline_measure_date
+      WHERE o.INTERPRETATION IS NOT NULL
+      GROUP BY o.MEMBER_ID, o.INSTRUMENT, o.MEASURE_DATE
+    ) x
+    GROUP BY INSTRUMENT
+  ) totals
+  ON b.INSTRUMENT = totals.INSTRUMENT
+GROUP BY
+  b.INSTRUMENT,
+  b.INTERPRETATION,
+  totals.total_baseline_outcomes
+ORDER BY
+  b.INSTRUMENT,
+  baseline_outcomes DESC;
+```
+
 
 **Screenshot**: <img width="1745" height="810" alt="q09_baseline_severity_distribution_sql_output" src="https://github.com/user-attachments/assets/bcbc8c4e-db6f-41d0-ad60-4b32c928df36" />
 
