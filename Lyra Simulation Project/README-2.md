@@ -4,7 +4,7 @@
 
 **Author:** Elliott Earley  
 **Focus Areas:** Healthcare Analytics, Clinical Operations, Revenue Cycle, Member Experience  
-**Last Updated:** 2026-01-01  
+**Last Updated:** 2026-01-05  
 
 ---
 
@@ -104,6 +104,9 @@ Key practices used:
 
 Each query produces a **clean, analysis-ready output table**.
 
+**Screenshot**: <img width="1438" height="815" alt="Screenshot 2026-01-13 at 12 37 58 PM" src="https://github.com/user-attachments/assets/9d31306b-6f20-447f-a0fb-3ac90b92cb29" />
+
+
 ---
 
 ### Step 3: Querying Curated Tables
@@ -117,6 +120,9 @@ Queries pull from core healthcare fact and dimension tables, including:
 - `V_SESSIONS_ENRICHED`
 
 The outputs are shaped specifically for visualization (aggregated, labeled, and time-aligned).
+
+**Screenshot**: <img width="258" height="492" alt="Screenshot 2026-01-13 at 12 39 35 PM" src="https://github.com/user-attachments/assets/3e4c6c91-9cba-42bd-8e93-22d2335aab8c" />
+
 
 ---
 
@@ -132,6 +138,9 @@ In Tableau:
 - Color, layout, and labeling are optimized for executive readability
 
 The result is a **focused dashboard** that tells a clear story without overwhelming the viewer.
+
+**Screenshot**: <img width="1998" height="1598" alt="Lyra Health Simulated Dashboard" src="https://github.com/user-attachments/assets/645a5836-916b-486d-9ee8-91fe36fa2b8b" />
+
 
 ---
 
