@@ -6,7 +6,7 @@
 **Platform:** Snowflake SQL  
 **Dataset:** LYRA_BIG_DEMO.PUBLIC  
 **Reporting Period (when applicable):** 2023-12-01 → 2025-12-01 (end-exclusive)  
-**Last Updated:** 2025-12-26  
+**Last Updated:** 2025-01-05  
 
 ---
 
